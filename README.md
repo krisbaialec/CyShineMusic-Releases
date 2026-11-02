@@ -5,7 +5,9 @@ BASS 音频播放、本地音乐、自定义音源、搜索、歌单、下载、
 本仓库提供发布说明、许可证、更新日志、界面截图和 Release APK。源码及开发历史暂保存在私人仓库，公开版本由维护者手动决定，不自动同步。
 
 <!-- RELEASE-STATUS -->
-**待发布版本：v1.0.10，尚未公开 APK。** 确认发布后，本页会更新为正式下载入口。
+最新正式版：[v1.0.10](https://github.com/krisbaialec/CyShineMusic-Releases/releases/tag/v1.0.10)。文件 CyShinePlus-1.0.10-arm64-release.apk，37,320,092 字节。
+
+SHA-256：`b9b541c5a0f24e900092d5efe6886b7d8604f959ecefe4a7308eaef20930e668`。
 <!-- /RELEASE-STATUS -->
 
 ## 下载与安装
@@ -38,7 +40,7 @@ Android 桌面歌词实现参考 [lyswhut/lx-music-mobile](https://github.com/ly
 完整主项目许可及已收集的第三方声明见 [LICENSE](LICENSE)。主项目的 MIT 许可不替代第三方组件的独立许可，也不表示原项目的代码变成专有许可。
 
 <!-- LICENSE-REVIEW -->
-BASS 及解码组件适用各自条款，BASS 免费使用条件限非商业用途；JAudioTagger 的准确二进制来源、LGPL 对应源码和替换/重链接材料仍待补齐。
+BASS 适用非商业免费使用条件；JAudioTagger 的具体二进制来源及 LGPL 分发材料仍待补齐。
 <!-- /LICENSE-REVIEW -->
 
 ## 使用声明
