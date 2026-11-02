@@ -1,0 +1,4824 @@
+栖弦+ is a modified version of https://github.com/KevinllBin/CyShineMusic
+MIT License
+
+Copyright (c) 2026 KevinllBin
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Desktop lyric overlay adapted from Mint-Music (kingmuchen, MIT).
+MIT License
+
+Copyright (c) 2026 kingmuchen
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Android desktop overlay refers to lx-music-mobile (lyswhut), Apache-2.0; modified Kotlin implementation.
+https://github.com/lyswhut/lx-music-mobile
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+JAudioTagger Android library: LGPL; https://github.com/AdrienPoupa/jaudiotagger
+Library provenance, corresponding source and relinking compliance require completion before public binary distribution.
+
+===== BASS-FX-LICENSE.txt =====
+-------------------------------------------------------------------------------
+                        (: -= BASS_FX v2.4.12.1 =- :)
+                             -=================-
+            Copyright (c) 2002-2018 JOBnik! [Arthur Aminov, ISRAEL]
+                             All rights reserved!
+-------------------------------------------------------------------------------
+
+Donate
+======
+If you like BASS_FX or use it in a commercial/shareware products,
+then you may wish to make a donation to support its development (see the docs for info).
+
+Thank you!
+
+
+Files that you should have found in the BASS_FX "package"
+=========================================================
+Win32 version
+-------------
+BASS_FX.TXT      This file
+BASS_FX.DLL      The BASS_FX module
+BASS_FX.CHM      BASS_FX documentation
+File_ID.Diz      BBS description file
+
+x64\
+  BASS_FX.DLL    64-bit BASS_FX module
+
+C\               C/C++ APIs and samples
+  BASS_FX.H        BASS_FX C/C++ header file
+  BASS_FX.LIB      BASS_FX import library
+  x64\
+    BASS_FX.LIB    64-bit BASS_FX import library
+  SAFESEH\
+    BASS_FX.LIB    SAFESEH compatible BASS_FX import library
+
+  bpm\             BPM example
+    bpm.c
+    bpm.h
+    bpm.rc
+
+  dsp\             DSP example
+    dsp.c
+    dsp.h
+    dsp.rc
+
+  freeverb\        Freeverb example
+    freeverb.c
+    freeverb.h
+    freeverb.rc
+
+  reverse\         Reverse example
+    reverse.c
+    reverse.h
+    reverse.rc
+
+  tempo\           Tempo example
+    tempo.c
+    tempo.h
+    tempo.rc
+
+  bin\             Precompiled examples
+    bpm.exe
+    dsp.exe
+    reverse.exe
+    tempo.exe
+
+Delphi\   Delphi APIs and samples
+  BASS_FX.PAS      BASS_FX Delphi APIs Unit
+
+  BPM\     BPM example
+    bpm.dfm          main form
+    bpm.pas          main unit
+    prjBPM.dpr       project file
+
+  DSP\             DSP example
+    dsp.dfm
+    dsp.pas
+    prjDSP.dpr
+
+  Reverse\         Reverse example
+    prjRev.dpr
+    Reverse.dfm
+    Reverse.pas
+
+  Tempo\           Tempo example
+    prjTempo.dpr
+    tempo.dfm
+    tempo.pas
+
+VB\              Visual Basic APIs and samples
+  BASS_FX.BAS      BASS_FX VB APIs Module
+
+  BPM\             BPM example
+    frmBPM.frm       main form
+    modBPM.bas       module with some functions
+    prjBPM.vbp       project file
+
+  DSP\             DSP example
+    frmDSP.frm
+    prjDSP.vbp
+
+  Reverse\         Reverse example
+    frmREVERSE.frm
+    prjREVERSE.vbp
+
+  Tempo\           Tempo example
+    frmTempo.frm
+    prjTepmo.vbp
+
+
+NOTE: To run the sample EXEs, first you'll have to copy BASS_FX.DLL into
+      the same directory as the EXEs. You'll also need BASS.DLL which can
+      be download from the BASS website.
+
+NOTE: To build the examples, you'll need to copy the BASS API into the
+      same directory as the BASS_FX API.
+
+
+MacOSX version
+--------------
+BASS_FX.TXT      This file
+LIBBASS_FX.DYLIB  The BASS_FX module
+BASS_FX.CHM      BASS_FX documentation
+BASS_FX.H        BASS_FX C/C++ header file
+MAKEFILE         Makefile for all examples
+MAKEFILE.IN      Makefile helper macros
+
+reverse\         Reverse example
+  reverse.c
+  makefile
+  reverse.nib
+
+tempo\           Tempo example
+  tempo.c
+  makefile
+  tempo.nib
+
+
+NOTE: To view the documentation, you will need a CHM viewer, like CHMOX
+      which is included in the BASS package.
+
+NOTE: To build the examples, you'll need to copy the BASS API into the
+      same directory as the BASS_FX API.
+
+
+What's the point?
+=================
+BASS_FX is an extension to the BASS audio library, providing a complete
+set of Real-time DSP functions to start developing your own DJ software ;)
+Developed to enable the simple and advanced developers/users to 
+have in their applications sound effects without knowing any DSP at all!
+
+
+Requirements
+============
+BASS 2.4 is required, the BASS_FX module will fail to load if it is not present.
+
+MacOSX version
+--------------
+OSX 10.3.9 or above is recommended. BASS_FX is compatible with both
+PowerPC and Intel Macs.
+
+
+Using BASS_FX
+=============
+Win32 version
+-------------
+To use BASS_FX with Borland C++ Builder, you'll first have to create a
+Borland C++ Builder import library for it. This is done by using the
+IMPLIB tool that comes with Borland C++ Builder. Simply execute this:
+
+ IMPLIB BASS_FXBCB.LIB BASS_FX.DLL
+
+... and then use BASS_FXBCB.LIB in your projects to import BASS_FX.
+
+To use BASS_FX with LCC-Win32, you'll first have to create a compatible
+import library for it. This is done by using the PEDUMP and BUILDLIB
+tools that come with LCC-Win32. Run these 2 commands:
+
+ PEDUMP /EXP BASS_FX.LIB > BASS_FXLCC.EXP
+ BUILDLIB BASS_FXLCC.EXP BASS_FXLCC.LIB
+
+... and then use BASS_FXLCC.LIB in your projects to import BASS_FX.
+
+TIP: The BASS_FX.CHM file should be put in the same directory as the BASS.CHM
+     file, so that the BASS_FX documentation can be accessed from within the
+     BASS documentation.
+
+MacOSX version
+--------------
+A separate  "LIB" file is not required for OSX. Using XCode, you can simply
+add the DYLIB file to the project. Or using a makefile, you can build your
+programs like this, for example:
+
+ gcc yoursource -L. -lbass -lbass_fx -o yourprog
+
+As with LIBBASS.DYLIB, the LIBBASS_FX.DYLIB file must be put in the same
+directory as the executable (it can't just be somewhere in the path). See
+the example makefiles.
+
+LIBBASS_FX.DYLIB is a universal binary, with support for both PowerPC and
+Intel Macs. If you want PowerPC-only or Intel-only versions, the included
+makefile can create them for you, by typing "make ppc" or "make i386".
+
+
+Latest Version
+==============
+The latest versions of BASS_FX & BASS can be found at these websites:
+
+        http://www.un4seen.com          (the home of BASS)
+        http://www.jobnik.org
+
+
+Copyright, Disclaimer, and all that other jazz
+==============================================
+The BASS_FX library is free, so if anyone tries to charge you
+for it, kick 'em where it hurts.
+
+This software is provided "as is", without warranty of ANY KIND,
+either expressed or implied, including but not limited to the
+implied warranties of merchantability and/or fitness for a
+particular purpose. The author shall NOT be held liable for
+ANY damage to you, your computer, or to anyone or anything else,
+that may result from its use, or misuse. Basically, you use it
+at YOUR OWN RISK.
+
+Usage of BASS_FX indicates that you agree to the above conditions.
+
+You may freely distribute the BASS_FX package as long as NO FEE is
+charged and all the files remain INTACT AND UNMODIFIED.
+
+All trademarks and other registered names contained in the BASS_FX
+package are the property of their respective owners.
+
+
+History
+=======
+These are the major (and not so major) changes at each version
+stage. There are ofcourse bug fixes and other little improvements
+made along the way too! To make upgrading simpler, all functions
+affected by a change to the BASS_FX interface are listed.
+
+2.4.12.1 - 07/06/2018
+---------------------
+* BASS_FX:
+  * Fixed file version info on Windows platforms.
+
+* Tempo:
+  * Fixed an issue with flushing the final samples from the tempo processing buffers as described in this post:
+    http://www.un4seen.com/forum/?topic=2181.msg126906#msg126906
+
+2.4.12 - 28/03/2018
+-------------------
+* BASS_FX:
+  * Added "Windows Store (Win10-ARM/x86/x64, Win8-x86/x64, Win8-Phone-ARM)" platform support (package bass_fx24-winstore.zip).
+  * Android, added "arm64-v8a" architecture support (package bass_fx24-android-arm64.zip).
+  * Linux ARM, added "aarch64" architecture support.
+  * OSX, removed PowerPC support, since the PowerPC architecture is no longer supported by BASS and Apple.
+  * Delphi/Pascal, updated BASS_FX.PAS unit and changed "WIN32" to "MSWINDOWS".
+
+* Tempo:
+  * Updated to the latest SoundTouch version 2.0.0
+  * Adjusted algorithm parameters to reduce reverberating effect at tempo slowdown.
+  * Improved sound quality when using integer processing algorithm.
+  * Improved sound quality when BASS_ATTRIB_TEMPO_OPTION_USE_QUICKALGO == TRUE.
+    The new quickseek algorithm can find 99% as good results as the default full-scan mode, while the quickseek algorithm is
+    remarkable less CPU intensive.
+  * "mixtime" BASS_SYNC_END syncs are delayed until the tempo processing reaches the end (not when the source does), in the
+    same was as BASS_SYNC_POS syncs.
+  * Fixed threading issue.
+  * Miscellaneous small fixes and improvements.
+
+* BPM:
+  * Updated to the latest SoundTouch version 2.0.0
+
+* Reverse:
+  * Fixed small bug in reverse processing, that BASS_SYNC_END syncs aren't getting triggered on reverse streams that are
+    playing some files forwards.
+
+* DSP:
+  * Fixed fRate parameter in BASS_FX_BFX_AUTOWAH effect.
+  * BASS_FX_BFX_PITCHSHIFT effect is also enabled for Android (armeabi-v7a, x86) and Linux ARM (hardfp), that using now
+    floating-point instead of fixed-point.
+
+2.4.11.1 - 24/12/2014
+---------------------
+* BASS_FX:
+  * Added support for BASS 2.4.11, BASS_DATA_FIXED flag is used in Android, WinCE and Linux ARM platforms.
+  * Documentation is updated.
+  * iOS, added "x86_64" simulator architecture.
+
+* Tempo:
+  * Fixed "Segmentation fault" on x64 Linux system.
+
+* DSP:
+  * Android, fixed "BASS_FX_BFX_ECHO4" effect as reported in this thread:
+    http://www.un4seen.com/forum/?topic=13225.msg112373#msg112373
+
+2.4.11 - 02/09/2014
+-------------------
+* BASS_FX:
+   * Fixed an issue on OSX (The Xcode project's "Installation Directory" setting set to "@loader_path" instead of "@executable_path").
+   * Tempo/Reverse fixed a thread-safety crash.
+   * Tempo/Reverse added CTYPE info for these streams.
+   * Android, added "x86" architecture support (some effects are buggy, will be fixed soon).
+   * iOS, added "arm64" architecture support.
+   * Fixed Delphi/Pascal unit by changing "FLOAT" to "Single".
+   * Added C/C++ "freeverb" example.
+
+* Tempo:
+   * Updated to latest SoundTouch library version 1.8.0
+   * Fixed a crash when using syncs on tempo, as described in this thread: http://www.un4seen.com/forum/?topic=15708.0
+   * Added 3 interpolation algorithms to set using BASS_FX_TEMPO_ALGO_XXX flags (BASS_FX_TempoCreate):
+      * BASS_FX_TEMPO_ALGO_LINEAR
+      * BASS_FX_TEMPO_ALGO_CUBIC   (default)
+      * BASS_FX_TEMPO_ALGO_SHANNON
+
+* DSP:
+   * Fixed a bug in BASS_FX_BFX_VOLUME_ENV effect with the "bFollow" option on mobile devices,
+     as described in this thread http://www.un4seen.com/forum/?topic=15866
+   * Added new effects:
+     * BASS_FX_BFX_PITCHSHIFT, that uses FFT for its pitch shifting while maintaining duration.
+     * BASS_FX_BFX_FREEVERB, a reverb effect.
+
+2.4.10.1 - 05/06/2013
+---------------------
+* BPM/Beat:
+  * Fixed a crash when not using BPMPROGRESSPROC callback
+  * Added a check for BPMPROC/BPMBEATPROC callbacks, if not available, returns BASS_ERROR_ILLPARAM error code
+
+2.4.10 - 02/06/2013
+-------------------
+* BASS_FX:
+   * Please see DSP and BPM sections for decprecated effects/functions.
+     To not break compatibility with BASS 2.4 version, these effects and functions will still remain in BASS_FX,
+     but are removed from documentations and will be totally removed from BASS_FX in the future.
+   * BASS_ERROR_FX_NODECODE error code *removed*, will return BASS_ERROR_DECODE instead (Tempo/Reverse/BPM/Beat)
+   * BASS_ERROR_FX_BPMINUSE error code *removed*, will return BASS_ERROR_ALREADY instead (BPM/Beat)
+   * Tempo and BPM functions updated to latest SoundTouch library version 1.7.1
+   * Added BASS_BFX_Linear2dB and BASS_BFX_dB2Linear macros to headers, for convenience.
+
+* Tempo:
+  * Multi-channel support is added, but:
+     * No SSE optimizations
+     * BASS_ATTRIB_TEMPO_OPTION_USE_AA_FILTER is by default set to FALSE on iOS, Android, WinCE and Linux ARM platforms for lower CPU usage
+     * Not part of SoundTouch library, sources will be sent to Olli Parviainen after BASS_FX release
+  * Sound quality improvements
+  * Improved output sound stream duration to match better with ideal duration
+  * Fixed BASS_ERROR_UNKNOWN issue with Windows 8 x64, posted in this thread:
+    http://www.un4seen.com/forum/?topic=14499.0
+
+* BPM:
+  * BASS_FX_BPM_Translate and all of its options, BASS_FX_BPM_TRAN_xxx, are *deprecated*
+  * BPMPROCESSPROC *renamed* to BPMPROGRESSPROC
+  * BPM example is updated to fit above changes
+  * Tuned detection algorithm
+  * Fixed detection bug in Android, WinCE & Linux ARM platforms, for returning odd values
+  * Fixed percents bug in BPMPROGRESSPROC
+  * Changed default min/max BPM window to SoundTouch's 29/200
+
+* Beat:
+  * Fixed regression since version 2.4.8 in BASS_FX_BPM_BeatDecodeGet function,
+    that would free a "chan" when detection is completed, as described in this thread:
+    http://www.un4seen.com/forum/?topic=2181.msg102805#msg102805
+
+* DSP:
+  * Ported all effects to Android, WinCE & Linux ARM platforms
+
+  * BASS_FX_BFX_ROTATE:
+        added new structure "BASS_BFX_ROTATE" with params:
+        "fRate"    - set the rotation rate/speed in Hz between channels
+        "lChannel" - multi-channel support, only for even number of channels
+
+  * BASS_FX_BFX_ECHO4:
+        added new effect and structure "BASS_BFX_ECHO4" with params:
+        "fDryMix"   - unaffected signal mix
+        "fWetMix"   - affected signal mix
+        "fFeedback" - output signal to feed back into input
+        "fDelay"    - delay seconds
+        "bStereo"   - even channels are echoed to each other if enabled
+        "lChannel"  - multi-channel support
+
+  * BASS_FX_BFX_ECHO        - *deprecated*, use BASS_FX_BFX_ECHO4
+  * BASS_FX_BFX_ECHO2       - *deprecated*, use BASS_FX_BFX_ECHO4
+  * BASS_FX_BFX_ECHO3       - *deprecated*, use BASS_FX_BFX_ECHO4
+  * BASS_FX_BFX_REVERB      - *deprecated*, use BASS_FX_BFX_ECHO4 with fFeedback enabled
+  * BASS_FX_BFX_FLANGER     - *deprecated*, use BASS_FX_BFX_CHORUS
+  * BASS_FX_BFX_COMPRESSOR  - *deprecated*, use BASS_FX_BFX_COMPRESSOR2
+  * BASS_FX_BFX_APF         - *deprecated*, use BASS_FX_BFX_BQF with BASS_BFX_BQF_ALLPASS filter
+  * BASS_FX_BFX_LPF         - *deprecated*, use 2x BASS_FX_BFX_BQF with BASS_BFX_BQF_LOWPASS filter and appropriate fQ values
+
+2.4.9 - 16/01/2013
+------------------
+* BASS_FX:
+  * WinCE version introduced (package bass_fx24-ce.zip) currently doesn't include most BASS_FX_BFX_xxx effects.
+  * Linux ARM version introduced (package bass_fx24-linux-arm.zip) currently doesn't include most BASS_FX_BFX_xxx effects.
+
+* DSP:
+  * Added more effects to Android, WinCE & Linux ARM ports:
+     BASS_FX_BFX_PEAKEQ
+     BASS_FX_BFX_MIX
+     BASS_FX_BFX_VOLUME_ENV
+
+* Tempo and Reverse:
+  * According to this request: http://www.un4seen.com/forum/?topic=13910
+    Added support for DECODETO option.
+
+* Tempo:
+  * iOS, WinCE & Linux ARM: Enabled the BASS_ATTRIB_TEMPO_OPTION_USE_QUICKALGO option on tempo
+    streams by default for lower CPU usage. See docs on how to disable it.
+
+* iOS: Added armv7s architecture support.
+
+2.4.8 - 31/07/2012
+------------------
+* BASS_FX:
+  * Android version introduced (package bass_fx24-android.zip)
+    currently doesn't include most BASS_FX_BFX_xxx effects.
+  * Delphi/Pascal unit: changed "user" param from "DWORD" to "Pointer"
+
+* BPM:
+  * Added "user" param to BASS_FX_BPM_DecodeGet and BPMPROCESSPROC (you have to recompile your project).
+  * BPM example is updated to fit above changes.
+  * According to this request: http://www.un4seen.com/forum/?topic=13319
+    Added support for BPM detection from the current position with BASS_FX_BPM_DecodeGet (startSec<0). 
+    
+* Beat:
+  * Couple of little fixes in beat detection.
+
+* Tempo:
+  * Android: Enabled the BASS_ATTRIB_TEMPO_OPTION_USE_QUICKALGO option on tempo
+    streams by default for lower CPU usage. See docs on how to disable it.
+
+2.4.7.1 - 01/07/2011
+--------------------
+* BASS_FX:
+   * Documentation updated.
+
+* DSP:
+   * Fixed a small issue in BASS_FXGetParameters for BASS_FX_BFX_VOLUME effect, as it would change the lChannel value
+     when the global volume (lChannel=0) is requested.
+
+* OSX:
+   * x86_64 architecture support
+
+2.4.7 - 07/04/2011
+------------------
+* BASS_FX:
+  * Delphi unit updated: BASS_BFX_ENV_NODE = record, changed to BASS_BFX_ENV_NODE = packed record
+
+* DSP:
+   * Fixed bug in BASS_FX_BFX_VOLUME_ENV, being applied slightly early when "bFollow" is enabled.
+   * BASS_FX_BFX_DAMP made effect parameter setting a bit more convenient. If fGain < 0 then leave the current value.
+
+* iOS:
+   * Added armv7 architecture support.
+   * Combined the Device armv6/7 architectures and Simulator libraries into a single file.
+
+2.4.6 - 27/07/2010
+------------------
+* BASS_FX:
+   * Tempo and BPM updated to SoundTouch 1.5.1pre
+   * iPhone version introduced (package bass_fx24-iphone.zip)
+     NOTE: Since iPhone supports only static libraries, it isn't possible for static libraries to declare their dependencies,
+           so that needs to be done in the app's project instead, eg. by adding "-lstdc++" in the "Other Linker Flags".
+* Tempo:
+   * Updated automatic parameter adjustment logic to reduce tone wobbling at large tempo changes.
+   * Retired 3DNow! optimization support as 3DNow! is nowadays obsolete and assembler code is nuisance to maintain.
+
+* BPM:
+   * Improved BPM detection.
+   * Added automatic cutoff threshold adaptation to beat detection routine to better adapt BPM calculation to different types of music.
+   * Fixed bug in BPMPROCESSPROC percents, when endSec is greater than stream's length.
+
+* Reverse:
+   * Fixed bug with getting the position when using a large output buffer (BASS_CONFIG_BUFFER).
+   * Fixed bug in BASS_ChannelGetPosition, could return an incorrect position.
+
+2.4.5 - 18/12/2009
+------------------
+* DSP: Added new effect, BiQuad filters, BASS_FX_BFX_BQF with filter types:
+        BASS_BFX_BQF_LOWPASS
+        BASS_BFX_BQF_HIGHPASS
+        BASS_BFX_BQF_BANDPASS
+        BASS_BFX_BQF_BANDPASS_Q
+        BASS_BFX_BQF_NOTCH
+        BASS_BFX_BQF_ALLPASS
+        BASS_BFX_BQF_PEAKINGEQ
+        BASS_BFX_BQF_LOWSHELF
+        BASS_BFX_BQF_HIGHSHELF
+
+* Tempo:
+   * Tempo processing bypassed when tempo/pitch set to 0
+   * Couple of improvements:
+     * Added normalization to correlation calculation
+     * Heuristic that weights center of the processing window
+
+2.4.4.1 - 29/04/2009
+--------------------
+* Tempo: Fixed a bug that could cause a stream to end slightly early.
+
+2.4.4 - 28/03/2009
+------------------
+* BASS_FX:
+  * Added: Linux x64 build in bass_fx24-linux.zip package.
+
+* Tempo:
+  * Updated to most latest SoundTouch library 1.4.1
+  * Improved sound quality by automatic calculation of time stretch algorithm processing
+    parameters according to tempo setting.
+  * Added new BASS_ATTRIB_TEMPO_OPTION_PREVENT_CLICK, to prevent click when
+    samplerate/pitch crosses the default value during processing.
+    Default is FALSE as this involves slight sound quality compromise.
+
+* BPM/Beat:
+  * Fixed a small bug of internally called SETPOS sync.
+
+2.4.3.1 - 07/01/2009
+--------------------
+* BASS_FX: Delphi/Pascal unit updated to handle both Windows and Linux
+* Tempo: Fixed a small bug in processing with BASS_SAMPLE_LOOP flag
+
+2.4.3 - 24/12/2008
+------------------
+* BASS_FX:
+  * Mixtime POS syncs are now triggered when the specified position is
+    rendered in the tempo/reverse stream (rather than when it is decoded from the source).
+  * Linux version introduced (package bass_fx24-linux.zip) // examples will follow
+
+* Tempo:
+  * Corrected BASS_ATTRIB_TEMPO_FREQ min/max values.
+
+* DSP:
+  * Added new volume effect: BASS_FX_BFX_VOLUME_ENV, a volume effect using an envelope.
+  * BASS_FX_BFX_APF, BASS_FX_BFX_ECHO2, BASS_FX_BFX_ECHO3: fDelay 6 seconds limit removed.
+
+* BPM:
+  * Improved the peak detection algorithm so that it wouldn't incorrectly report too slow
+    harmonic beats if they are close to the true base beat.
+
+2.4.2 - 16/08/2008
+------------------
+* BASS_FX:
+  * Some processing functions optimized for speed.
+
+* DSP:
+  * Added new compressor effect BASS_FX_BFX_COMPRESSOR2
+    For compatibility issues new compressor will replace old one in version 2.5
+
+2.4.1 - 28/06/2008
+------------------
+* Tempo:
+  * Fixed a bug in BASS_ChannelGetPosition, that would return a
+    lower position than it should with a decoding tempo stream.
+
+* BPM:
+  * Multi-channel support.
+  * Fixed a bug in BASS_FX_BPM_DecodeGet, that would return 0 if using
+    the same handle and endSec for both Callback and Decode BPM.
+
+2.4.0.2 - 17/04/2008
+--------------------
+* BPM: fixed another bug in BPMPROC
+* Tempo: fixed a bug not allowing changing BASS_ATTRIB_TEMPO_OPTION_xxx
+
+2.4.0.1 - 06/04/2008
+--------------------
+* BPM: fixed a bug in BPMPROC
+
+2.4 - 02/04/2008
+----------------
+* BASS_FX:
+  * Updated to BASS 2.4
+  * More integrated with BASS plug-in system.
+  * Added a function BASS_FX_GetVersion
+  * BASS_FX_CONFIG_DSP_RESET *removed*
+  * Error codes and names changed
+  * To be able to link with BASS_FX, you'll have to call BASS_FX_GetVersion function
+    (or any other function from BASS_FX.DLL) or load it dynamically using LoadLibrary("bass_fx.dll")
+  * Win64 version introduced (package bass_fx24-x64.zip)
+
+* DSP:
+  * Effect names, structure names, flags and chain order are changed
+     e.g: BASS_FX_DSPFX_PHASER -> BASS_FX_BFX_PHASER
+          BASS_FX_DSPPHASER -> BASS_BFX_PHASER
+  * All functions integrated with BASS FX functions and the usage is the same
+    as with BASS DX8/DMO effects:
+
+     BASS_FX_DSP_Set *removed* (use BASS_ChannelSetFX)
+     BASS_FX_DSP_SetParameters *removed* (use BASS_FXSetParameters)
+     BASS_FX_DSP_GetParameters *removed* (use BASS_FXGetParameters)
+     BASS_FX_DSP_Reset *removed* (use BASS_FXReset)
+     BASS_FX_DSP_Remove *removed* (use BASS_ChannelRemoveFX)
+
+  * It is possible now to apply an effect more than once on the same channel.
+  * BASS_FX_BFX_SWAP *removed* (use BASS_FX_BFX_MIX)
+  * BASS_FX_BFX_S2M:
+     Updated to support multi-channel and renamed to BASS_FX_BFX_MIX
+     BASS_FX_BFX_MIX supports Swap, remap and mixing channels together.
+  * BASS_FX_BFX_PEAKEQ:
+    * fFreq param *removed*
+      (use 'oldcenter*freq/oldfreq' to update the fCenter after changing the Samplerate)
+    * Max fCenter updated from less than 1/3 to 1/2 of info.freq
+    * Take a look at DSP example to know how to increase the number of bands
+
+  * BASS_FX_BFX_LPF:
+    * fFreq param *removed* (adjust fCutOffFreq param when needed)
+
+* Tempo:
+  * Support for all source sync types
+  * Funtions integrated with BASS attribute system (BASS_ChannelSet/GetAttribute):
+     BASS_FX_TempoSet *removed*
+     BASS_FX_TempoGet *removed*
+     BASS_FX_TempoSetOption *removed*
+     BASS_FX_TempoGetOption *removed*
+
+    * Tempo attributes:
+       BASS_ATTRIB_TEMPO
+       BASS_ATTRIB_TEMPO_PITCH
+       BASS_ATTRIB_TEMPO_FREQ
+
+    * Option attributes:
+       BASS_ATTRIB_TEMPO_OPTION_USE_AA_FILTER
+       BASS_ATTRIB_TEMPO_OPTION_AA_FILTER_LENGTH
+       BASS_ATTRIB_TEMPO_OPTION_USE_QUICKALGO
+       BASS_ATTRIB_TEMPO_OPTION_SEQUENCE_MS
+       BASS_ATTRIB_TEMPO_OPTION_SEEKWINDOW_MS
+       BASS_ATTRIB_TEMPO_OPTION_OVERLAP_MS
+
+* Reverse:
+  * Support for all source sync types
+  * Funtions integrated with BASS attribute system (BASS_ChannelSet/GetAttribute):
+     BASS_FX_ReverseSetDirection *removed*
+     BASS_FX_ReverseGetDirection *removed*
+
+    * Reverse attribute:
+       BASS_ATTRIB_REVERSE_DIR
+
+* BPM:
+  * Seconds changed from "float" to "double"
+  * Callback "user" parameters changed to pointers: BASS_FX_BPM_CallbackSet / BPMPROC
+  * Translation names changed:
+     BASS_FX_BPM_X2       -> BASS_FX_BPM_TRAN_X2
+     BASS_FX_BPM_2FREQ    -> BASS_FX_BPM_TRAN_2FREQ
+     BASS_FX_BPM_FREQ2    -> BASS_FX_BPM_TRAN_FREQ2
+     BASS_FX_BPM_2PERCENT -> BASS_FX_BPM_TRAN_2PERCENT
+     BASS_FX_BPM_PERCENT2 -> BASS_FX_BPM_TRAN_PERCENT2
+
+* Beat:
+  * Multi-channel support
+  * Seconds changed from "float" to "double"
+  * "cutofffreq" param renamed to "centerfreq"
+  * Callback "user" parameters changed to pointers:
+     BASS_FX_BPM_BeatCallbackSet / BPMBEATPROC
+     BASS_FX_BPM_BeatDecodeGet / BPMBEATPROC
+
+2.3.0.4 - 30/10/07
+------------------
+* DSP:
+  * Fixed: a bug in BASS_FX_DSPFX_DAMP to avoid trying to amplify silence data
+  * Fixed: a bug in BASS_FX_DSPFX_PEAKEQ to check illegal Center Frequencies (fCenter)
+
+* Tempo:
+  * Fixed: a bug that would prevent using a BASS_SYNC_MESSAGE sync
+  * Fixed: a bug that would prevent triggering a BASS_SYNC_END sync
+
+* Reverse:
+  * Fixed: a bug that would prevent using a BASS_SYNC_MESSAGE sync
+
+2.3.0.3 - 08/08/2007
+--------------------
+* BASS_FX:
+  * Fixed: a DEP crashing bug.
+  * Added: a Config option, to reset DSPs, BPM/Beat Callbacks when position is set.
+           use BASS_FX_CONFIG_DSP_RESET with BASS_Set/GetConfig function.
+
+* DSP:
+  * Fixed: bugs in functions:
+      BASS_FX_DSP_Set and BASS_FX_DSP_Remove
+
+  * Fixed: bugs in DSP effects:
+      BASS_FX_DSPFX_PEAKEQ
+      BASS_FX_DSPFX_ECHO
+      BASS_FX_DSPFX_ECHO2
+      BASS_FX_DSPFX_REVERB
+      BASS_FX_DSPFX_VOLUME
+      BASS_FX_DSPFX_DAMP
+
+  * Removed: DSPFX.TXT file, please check the docs for DSP effects/DSP Values
+
+* TEMPO:
+  * Fixed: a floating-point bug when calling BASS_FX_TempoCreate
+  * Fixed: POS SYNCs to be more accurate
+
+* BPM:
+  * Fixed: a bug in BASS_FX_BPM_Free and BASS_FX_BPM_BeatFree
+           that would sometimes release the source channnel as well
+           without using BASS_FX_FREESOURCE flag.
+
+* REVERSE:
+  * Fixed: a bug that, if you would set the direction to forward before starting playback,
+           the position would keep counting from the end.
+  * Updated: When reaching the end of the stream, changing the direction will now
+             reset the stream, so that it can be played again.
+  * Fixed: POS SYNCs to be more accurate
+
+2.3.0.2 - 09/04/2007
+--------------------
+* BEAT:
+  * Added Beat position detection for decoded streams
+     BASS_FX_BPM_BeatDecodeGet
+
+  * Added new functions:
+     BASS_FX_BPM_BeatCallbackReset
+     BASS_FX_BPM_BeatSetParameters
+     BASS_FX_BPM_BeatGetParameters
+
+* REVERSE:
+  * Multi-channel support
+  * Added new feature to change playing direction from Reverse to Forward and vice-versa
+     BASS_FX_ReverseSetDirection
+     BASS_FX_ReverseGetDirection
+
+* BPM:
+  * Fixed: one more critical bug in BPM functions
+
+* DSP:
+  * BASS_FX_DSPFX_PEAKEQ:
+     Improved effect and reduced CPU usage
+     Fixed: a bug, preventing using fQ if fBandwidth < 0.1f
+     Changed: fQ min limit to 0.1f
+
+  * BASS_FX_DSPFX_ECHO3:
+     Fixed: a bug in BASS_FX_DSP_GetParameters, that would return a wrong lChannel value
+
+  * Error code: BASS_FX_ERROR_STEREO *removed* (replaced with BASS_ERROR_FORMAT)
+
+* TEMPO:
+  * Setting functions name changed:
+     BASS_FX_TempoSettingSet -> BASS_FX_TempoSetOption
+     BASS_FX_TempoSettingGet -> BASS_FX_TempoGetOption
+
+     BASS_FX_TEMPO_SETTING_xxx -> BASS_FX_TEMPO_OPTION_xxx
+
+2.3.0.1 - 08/06/2006
+--------------------
+* New in BASS_FX:
+  * Added a valid parameters check for all functions.
+
+* BPM:
+  * A little improved Beat position trigger.
+  * Changing buffer content won't affect the BPM/Beat detection anymore.
+  * BASS_Stream/MusicFree will free the callback BPM/Beat as well.
+
+* BASS_FX.CHM:
+  * Added a very simple example to BPMBEATPROC callback, showing how to
+    count the BPM with just 2 beats.
+
+* DSP:
+  * Fixed small bugs in BASS_FX_DSPFX_VOLUME effect.
+
+2.3 - 21/05/2006
+----------------
+* New in BASS_FX:
+  * This version has some API changes.
+  * You'll have to recompile your application to use this version.
+  * =====
+     If you like BASS_FX or use it in a commercial/shareware products,
+     then you may wish to make a donation to support its development (see the docs for info).
+    =====
+
+* Tempo:
+  * Fixed a bug, that wouldn't clear buffers if a source channel isn't seekable.
+  * Removed flags:
+     BASS_FX_TEMPO_QUICKALGO
+     BASS_FX_TEMPO_NO_AAFILTER
+
+    you can set these using a function below, in real-time.
+
+  * Added 2 new functions:
+     BASS_FX_TempoSettingSet
+     BASS_FX_TempoSettingGet
+
+    with options (check the docs for more info about using them):
+     BASS_FX_TEMPO_SETTING_USE_AA_FILTER
+     BASS_FX_TEMPO_SETTING_AA_FILTER_LENGTH
+     BASS_FX_TEMPO_SETTING_USE_QUICKALGO
+     BASS_FX_TEMPO_SETTING_SEQUENCE_MS
+     BASS_FX_TEMPO_SETTING_SEEKWINDOW_MS
+     BASS_FX_TEMPO_SETTING_OVERLAP_MS
+
+* DSP:
+  * Added new struct:
+     BASS_FX_DSPSWAP
+
+  * Added multi-channel support and a per channel control with flags/macro:
+    each effect with a per channel control has a new "lChannel" param
+    (if you won't set the new param, then the effect will be affected on all channels as by default)
+
+     BASS_FX_DSPFX_SWAP  -> it's now possible not only swap, but remap as well.
+     BASS_FX_DSPFX_FLANGER
+     BASS_FX_DSPFX_VOLUME -> it's now needed to set a global volume, before boosting.
+     BASS_FX_DSPFX_PEAKEQ
+     BASS_FX_DSPFX_LPF
+     BASS_FX_DSPFX_DAMP
+     BASS_FX_DSPFX_AUTOWAH
+     BASS_FX_DSPFX_ECHO2
+     BASS_FX_DSPFX_PHASER
+     BASS_FX_DSPFX_ECHO3
+     BASS_FX_DSPFX_CHORUS
+     BASS_FX_DSPFX_APF
+     BASS_FX_DSPFX_COMPRESSOR
+     BASS_FX_DSPFX_DISTORTION
+
+
+  * Channel flags (check the docs for channels order):
+     BASS_FX_DSP_CHANALL
+     BASS_FX_DSP_CHANNONE
+     BASS_FX_DSP_CHAN1 .. BASS_FX_DSP_CHAN8
+
+    * If you have more than 8 channels (7.1), use this macro.
+      BASS_FX_DSP_CHANNEL_N(n)
+
+  * Added a DENORMAL check for all effects.
+  * BASS_FX_DSP_Reset is updated for all effects.
+
+* BPM:
+  * Added Real-Time Beat Position Trigger:
+     BASS_FX_BPM_BeatCallbackSet
+     BASS_FX_BPM_BeatFree
+
+  * BASS_FX_ERROR_BPMX2 error code *removed* and *replaced* with BASS_ERROR_ALREADY
+  * Fixed bugs:
+    * Serious memory-leak is fixed using both options.
+    * A bug that would free resources before the detecting process is finished.
+    * A bug that would still continue to detect previous data even if changing file to
+      scan, using a BASS_FX_BPM_BKGRND flag.
+    * A bug that would still return BPMs out of MIN/MAX range if using BASS_FX_BPM_MULT2 flag.
+
+2.2.0.1 - 30/11/2005
+--------------------
+* New in BASS_FX:
+  * 8-bit support.
+  * Added more DSP effect information to BASS_FX.CHM
+
+* DSP:
+  * Automatically free DSP resources when freeing the channel.
+  * Multi-channel support started with:
+    * BASS_FX_DSPFX_ECHO2
+    * BASS_FX_DSPFX_ECHO3
+    + more effects will be updated soon! :)
+  * Some bugs fixed.
+
+* BPM:
+  * Fixed a bug that would return BPMs out of MIN/MAX range if
+    using BASS_FX_BPM_MULT2 flag.
+
+* MacOSX:
+  * Samples added.
+
+2.2 - 03/10/2005
+----------------
+* New in BASS_FX:
+  * Removed all DSP GPL code.
+  * BASS_FX is now fully useable in commercial software, as long as
+    credit is given.
+  * BASS_FX_GetVersion() *removed* (won't load if BASS 2.2 isn't present)
+  * BASS_FX_ERROR_MODLEN *removed* (replaced with BASS_ERROR_NOTAVAIL)
+  * BASS_FX_ERROR_16BIT *removed* (no 16-bit only effects are left)
+  * Multi_FX example *removed*
+  * MacOSX port introduced
+
+* DSP:
+  * Removed GPL FX:
+    * BASS_FX_DSPFX_FLANGER2 & BASS_FX_DSPFX_CUT
+      - because of that the DSP chain is changed!
+
+* Reverse:
+  * MOD playback is now supported if using BASS_MUSIC_PRESCAN flag.
+
+* MacOSX examples will follow this week.
+
+2.1.0.2 - 07/05/2005
+--------------------
+* DSP:
+  * Chorus: fixed a bug, that would convert stereo to mono.
+  * Low Pass Filter: fixed a bug, that would convert stereo to mono.
+  * DynamicAMP: another bug fix, that would sometimes cause a total silence.
+  + Added:
+    * A new effect: Distortion
+    * DSPFX.TXT - a values to use with some effects, to achieve different
+                  effect with the same one (not using other effect/s) :)
+
+2.1.0.1 - 22/02/2005
+--------------------
+* New in BASS_FX:
+  + Added:
+    * File version info.
+    * Documentation file BASS_FX.CHM.
+
+* DSP:
+  * Another DynamicAMP bug fix.
+  * Added a new effect: Compressor
+
+* BPM:
+  * Added: "User" param to Callback BPM functions.
+
+2.1 - 27/12/2004 - Happy New Year ;)
+------------------------------------
+* New in BASS_FX:
+  * No more "alpha/beta" releases! :)
+  * Updated to BASS 2.1 add-on APIs, coz of that BASS_FX is not compatible with any 
+    previous versions. You'll have to make some changes in your project.
+  * Full 32-bit floating-point support.
+  * Sync support, "Sync & Tempo" example *removed*
+  * A lot of functions/error codes removed and integrated with BASS functions/error codes.
+  * New flag: BASS_FX_FREESOURCE if you want BASS_FX to free the source handle as well.
+  * New error code: BASS_FX_ERROR_16BIT for Flanger 2.
+  * BASS_FX_ErrorGetCode *removed* (use BASS_ErrorGetCode)
+  * BASS_FX_Free *removed*
+
+* Tempo:
+  * BASS_FX_TempoGetResampledHandle *removed*
+  * BASS_FX_TempoStopAndFlush *removed*
+  * BASS_FX_TempoFree *removed* (use BASS_StreamFree for music as well)
+  * BASS_FX_TempoGetApproxSeconds *removed* (use BASS_FX_TempoGetRateRatio to calculate)
+  * BASS_FX_TempoGetApproxPercents *removed* (use BASS_FX_TempoGetRateRatio to calculate)
+  + New functions:
+     BASS_FX_TempoGetSource (get the source handle when needed)
+     BASS_FX_TempoGetRateRatio
+  + New in flags:
+     BASS_FX_TEMPO_QUICKSEEK *renamed* to BASS_FX_TEMPO_QUICKALGO
+     BASS_FX_TEMPO_NO_AAFILTER *added*
+  * 3DNow! & SSE support.
+
+* Reverse:
+  * BASS_FX_ReverseGetReversedHandle *removed*
+  * BASS_FX_ReverseSetPosition *removed* (use BASS_ChannelSetPosition)
+  * BASS_FX_ReverseFree *removed* (use BASS_StreamFree)
+  * BASS_FX_ReverseCreate: "decode" param *removed* (use BASS_STREAM_DECODE flag)
+  * New function: BASS_FX_ReverseGetSource (get the source handle when needed)
+
+* BPM:
+  + These functions are combined to one: BASS_FX_BPM_Translate
+     * BASS_FX_BPM_X2 *removed*
+     * BASS_FX_BPM_Frequency2BPM *removed*
+     * BASS_FX_BPM_2Frequency *removed*
+     * BASS_FX_BPM_Percents2BPM *removed*
+     * BASS_FX_BPM_2Percents *removed*
+
+    + Use these translation options with a function above:
+       BASS_FX_BPM_X2
+       BASS_FX_BPM_2FREQ
+       BASS_FX_BPM_FREQ2
+       BASS_FX_BPM_2PERCENT
+       BASS_FX_BPM_PERCENT2
+
+* DSP:
+  * Flanger 2 still only 16-bit, will return an error if applied to 32-bit.
+  * Some DSP effects bug fixed.
+  + Echo 2.1 renamed to Echo 3:
+    * BASS_FX_DSPFX_ECHO21 -> BASS_FX_DSPFX_ECHO3
+    * BASS_FX_DSPECHO21 -> BASS_FX_DSPECHO3
+  + New effects added (more will come soon!):
+    . Chorus
+    . All Pass Filter
+
+2.0 "beta 2" - 28/11/2004
+-------------------------
+* New in BASS_FX:
+  * Updated to BASS 2.1, just before releasing the official BASS_FX 2.1 :)
+  * Oops... again BASS_FX is a bit smaller ;)
+
+2.0 "beta 2" - 19/10/2004
+-------------------------
+* DSP:
+  + Updated with 32-bit floating-point support:
+    . Auto Wah
+    + Dynamic Amplification:
+      * Fixed bug that would cause a sound mute if there're ~20+ seconds of silence.
+        All parameters changed from "Integer/Long" to "Float/Single" and their names
+        now starts with "f: Float/Single".
+
+    + Not updated, yet [only 16-bit support]:
+      . Flanger 2.0!
+
+  + Fixed bugs of:
+    * "Echo" & "Reverb" effects that would cause a noise clicks and a sound mute.
+    * "Peaking EQ" that would cause a crash with Mono files.
+
+* Reverse:
+  * 32-bit floating-point support.
+
+* Tempo:
+  * Fixed bug that would cause a crash if BASS_FX_Free would be called twice.
+
+* WARN!NG NOTE:
+   Not updated effects (Flanger 2/Tempo) must not be used with 32-bit.
+   It will crash your program and could make a very annoying noise!!!
+   Sometimes could even crash your system until RESET!
+
+2.0 "beta 1" - 07/09/2004
+-------------------------
+* Really sorry for a long delay with updates!!!
+
+* New in BASS_FX:
+  * Now supports Windows 98/98SE without "msvcp60.dll" ~392KB
+  * Some DSP effects updated with 32-bit floating-point support.
+    The updated effects could be used with 16-bit & 32-bit.
+
+* DSP:
+  + Updated with 32-bit floating-point support:
+    . Swap Channels
+    . Rotate
+    . Echo
+    . Flanger
+    . Volume Amplifier
+    . Peaking EQ
+    . Reverb
+    . Low Pass Filter
+    . Volume Cutter
+    . Stereo 2 Mono
+    . Echo 2.0!
+    . Phaser
+    . Echo 2.1!
+
+    + Not updated, yet [only 16-bit support]:
+      . Flanger 2.0!
+      . Dynamic Amplification
+      . Auto Wah
+
+  * All parameters that began with "d: Double" changed to "f: Float/Single",
+    as it was forgotten with last update.
+
+* BPM:
+  * Updated with 32-bit floating-point support.
+
+* WARN!NG NOTE:
+   Not updated effects (DSP/Tempo/Reverse) must not be used with 32-bit.
+   It will crash your program and could make a very annoying noise!!!
+   Sometimes could even crash your system until RESET!
+
+* New in Examples:
+  * Added: "Sync & Tempo"
+
+* Removed:
+  * BASS_FX_ERROR_BASS20 error code, BASS_FX will show an error message
+    if BASS.DLL version is below 2.0 and won't load.
+
+2.0 "alpha" - 4/12/2003
+-----------------------
+* New in BASS_FX:
+  * Updated to BASS 2.0!
+  * Version jumpted from '1.2 "beta"' to '2.0 "alpha"',
+     means only BASS v2.x is supported!
+
+* DSP:
+  * Added *priority* param to BASS_FX_DSP_Set(..) func
+  * All *Double* types changed to *Float/Single*
+
+* New in Examples:
+  * Added "Multi_FX" C/C++ only.
+
+* VERSION 2.0 (not "alpha") will support:
+  * 32-bit floating-point including in: DSP, Tempo, BPM & Reverse.
+  * Multi Channel in some DSPs.
+  * Planning to release till the end of this month/year :)
+
+1.2 "beta" - 30/06/2003
+-----------------------
+* New in BASS_FX:
+  * Not compatible with any previous BASS_FX versions,
+     you'll have to make changes & recompile your
+     application to use with this version!
+
+  + Tempo, Pitch Scaling & Samplerate changers (3 at once ;))
+    + Functions:
+      * BASS_FX_TempoCreate
+      * BASS_FX_TempoSet
+      * BASS_FX_TempoGet
+      * BASS_FX_TempoGetApproxSeconds
+      * BASS_FX_TempoGetApproxPercents
+      * BASS_FX_TempoGetResampledHandle
+      * BASS_FX_TempoStopAndFlush
+      * BASS_FX_TempoFree
+
+  + Two BPM Detection options:
+    + Option 1 - Get BPM from a Decoding channel:
+      + Function
+        * BASS_FX_BPM_DecodeGet
+
+    + Option 2 - Get BPM by period of time of any handle - in Real-Time:
+      + Functions
+        * BASS_FX_BPM_CallbackSet
+        * BASS_FX_BPM_CallbackReset
+
+    + Functions to use with both options:
+        * BASS_FX_BPM_X2
+        * BASS_FX_BPM_Frequency2BPM
+        * BASS_FX_BPM_2Frequency
+        * BASS_FX_BPM_Percents2BPM
+        * BASS_FX_BPM_2Percents
+ * BASS_FX_BPM_Free
+
+* New in DSP:
+  * All DSP effects names has changed.
+  * The index of 1st DSP effect starts from 0 and
+    not from 1 as it was before.
+
+  + -= DSP FXs =- added:
+      * Dynamic Amplification
+      * Stereo 2 Mono
+      * Auto Wah
+      * Echo v2.0!
+      * Phaser
+      * Echo v2.1!
+
+  + Equalizer:
+    * Added *Q* parameter.
+    * Fixed some bugs :)
+  + Flanger v2.0!
+    * fixed bug (crashed with Mono files)
+
+* New in Functions:
+  + Added:
+    * BASS_FX_ErrorGetCode
+  * Always check for any Function changes.
+
+* Removed all PITCH functions:
+  * BASS_FX_PitchCreate
+  * BASS_FX_PitchSet
+  * BASS_FX_PitchGet
+  * BASS_FX_PitchGetResampledHandle
+  * BASS_FX_PitchStopAndFlush
+  * BASS_FX_PitchFree
+
+* New in Examples:
+  * Added: C/C++, Delphi & VB
+
+1.1 - 02/10/2002
+----------------
+* New in BASS_FX:
+  * Now supports - 16/8-Bit Stereo/Mono.
+  * Support for Multiple BASS instances.
+  * A lot of BUGs fixed =)
+
+* New in DSP:
+  + -= DSP FXs =- added:
+      * Low Pass Filter
+      * Cutter
+      * Flanger v2.0!
+
+  + Equalizer: 
+    * Algorithm optimized to BiQuad.
+    * Added a new parameter *eqBandwidth*
+
+* New in Reverse:
+  * Now you can add DX8 effects + change Pitch
+    with BASS_FX_Pitch... (check the *Reverse* example).
+
+* New in functions:
+  + Added:
+    * BASS_FX_DSP_Reset
+    * BASS_FX_Free
+  * Always check for any Function changes.
+
+* Added:
+  * Delphi APIs + Pitch Example.
+  * C/C++ Examples + corrected BASS_FX.LIB file ;)
+
+* Switched from MFC to Win32 DLL [MFC42.DLL ~1MB doesn't required]
+
+1.0 - 14/06/2002
+----------------
+* First release
+
+
+Credits
+=======
+* Thanks a lot to - Ian Luck @ www.un4seen.com - for: 
+   + BASS - Best Available Sound System!
+   + DSP source codes for Echo, Dynamic Amplification, Compressor and Volume Envelope
+   + Reverse playback source code
+   + SoundTouch algorithms implementation for Tempo/BPM
+   + Beat position algorithm fixes
+   + 8/16/32-bit support
+   + Fixed-point support
+   + Multi-channel support
+   + Add-on support
+   + MacOSX support
+   + Android support
+* Ian, you're the best programmer in the whole world!
+
+
+Credits - API/Sample Contributors
+=================================
+Delphi - Roger Johansson, Alex Graham (bigjim), DJ-Chris
+BASS_FX.CHM - Thijs van Vliet
+
+
+Bug reports, Suggestions, Comments, Enquiries, etc...
+=====================================================
+If you have any of the aforementioned please check the BASS forum (at
+the website)... If you can't find an answer there, you can email:
+
+        bass_fx@jobnik.org
+
+
+System - Desktop/PC
+===================
+  ---------------------------------------------------
+  BASS_FX.DLL - Windows - developed and tested using:
+  ---------------------------------------------------
+  System     : Intel Core i7 Haswell 4770 3.9GHz 8MB, 16GB DDR3 1600MHz CL9
+               Intel Core i7 860 2.8GHz 8MB, 4GB DDR3 1600MHz CL7
+               VMware 10
+
+  OS         : Microsoft Windows:
+                x86: 8, 7 Ultimate, Vista Ultimate, XP Pro SP3, 2000 Pro SP4 & 98
+                x64: 10 Pro, 8.1 Pro, 7 Enterprise/Ultimate, Vista Ultimate SP1, XP Pro SP1
+
+  Sound Card : RealTek HD 7.1 (onboard)
+
+  Compiler   : x86: Microsoft Visual C++ v6.0 SP5 with a Processor Pack
+               x64: Microsoft Visual C++ 2005 v8.0
+
+  DirectX    : 12, 11, 10, 9.0c and 7.0
+  BASS.DLL   : 2.4.13.8
+
+  ----------------------------------------------------
+  LIBBASS_FX.DYLIB - OSX - developed and tested using:
+  ----------------------------------------------------
+  System        : VMware 10
+
+  OS            : Apple Macintosh OS X:
+                   Intel Mac : 10.9, 10.8.2, 10.5.8 and 10.4.10
+                   PowerPC   : 10.3.9 and 10.4
+
+  Compiler      : GCC 4.0.1
+  IDE           : XCode 3.1.4
+  LIBBASS.DYLIB : 2.4.13.8
+
+  ---------------------------------------------------
+  LIBBASS_FX.SO - Linux - developed and tested using:
+  ---------------------------------------------------
+  System     : VMware 10
+
+  OS         : Ubuntu Desktop x86 and x64 v8.04
+
+  Compiler   : x86 and x64: GCC 4.2.4 (g++)
+
+  IDE        : Code::Blocks v8.02
+  LIBBASS.SO : 2.4.13.8
+
+
+System - Mobile/Portable
+========================
+  ------------------------------------------------
+  LIBBASS_FX.A - iOS - developed and tested using:
+  ------------------------------------------------
+  System    : VMware 10
+
+  OS        : Apple Macintosh OS X: Intel Mac 10.9
+
+  Compiler  : GCC 4.2 / LLVM
+  IDE       : XCode 3.1.4 / XCode 5.0.2 for armv7s/arm64 architectures
+  LIBBASS.A : 2.4.13.8
+
+  -----------------------------------------------------
+  LIBBASS_FX.SO - Android - developed and tested using:
+  -----------------------------------------------------
+  System     : Samsung Galaxy S7 Edge
+               LG G4-H815
+               Samsung Galaxy S2 GT-I9100
+               Android Virtual Device
+
+  OS         : Android Lollipop 5.1
+               Android JB 4.1.1/2
+               Android ICS 4.0.3/4
+               Android GB 2.3.3
+
+  Compiler   : Android NDK R10: GCC 4.4.8/9
+
+  IDE        : Eclipse
+  LIBBASS.SO : 2.4.13.8
+
+  ---------------------------------------------------------------
+  BASS_FX.DLL - Windows Store/Phone - developed and tested using:
+  ---------------------------------------------------------------
+  Compiler   : Microsoft Visual C++ 2015 v14.0
+  BASS.DLL   : 2.4.13.8
+
+  -------------------------------------------------
+  BASS_FX.DLL - WinCE - developed and tested using:
+  -------------------------------------------------
+  System   : GPS Device with CPU @ 372MHz
+             Pocket PC 2003 SE Emulator
+
+  OS       : Windows CE 5
+             Windows Mobile 2003 SE version 4.21.1088
+
+  Compiler : Microsoft Visual C++ 2005 v8.0
+  BASS.DLL : 2.4.13.8
+
+  -------------------------------------------------------
+  LIBBASS_FX.SO - Linux ARM - developed and tested using:
+  -------------------------------------------------------
+  System     : VMware 8
+
+  OS         : Ubuntu Desktop x86 v11.10
+
+  Compiler   : GCC: (crosstool-NG 1.15.2) 4.7.1 20120402 (prerelease)
+
+  IDE        : Code::Blocks v8.02
+  LIBBASS.SO : 2.4.13.8
+
+
+More Credits ;)
+===============
+ *  BiQuad filters
+(c) Robert Bristow-JohnsonD
+ @  http://www.musicdsp.org/files/Audio-EQ-Cookbook.txt
+
+ *  Peaking Equalizer (BiQuad filter)
+    The main source is based on - Manu Webber's - source code.
+ @  http://www.un4seen.com/forum/?topic=1246.msg6484#msg6484
+
+ *  Tempo/Pitch/Rate/BPM [SoundTouch v2.0.0]
+(c) Copyright (c) 2002-2017 Olli Parviainen
+ @  http://www.surina.net/soundtouch
+ L  LGPL license
+
+ *  Auto Wah, Chorus, Distortion, Echo (some parts from 1st algorithm) and Phaser
+(c) Copyright (c) 2000 Aleksey Smoli
+ @  http://st.karelia.ru/~smlalx    (offline)
+
+ *  Freeverb
+(c) Copyright (c) 2000 Jezar at Dreampoint
+ @  http://www.dreampoint.co.uk
+ L  Public domain
+
+ *  Pitch shifting using FFT [smbPitchShift v1.2]
+(c) Copyright (c) 1999-2009 Stephan M. Bernsee <smb [AT] dspdimension [DOT] com>
+ @  http://www.dspdimension.com/admin/pitch-shifting-using-the-ft/
+ L  WOL license
+
+ * BASS_FX is fully useable in commercial software, as long as credit is given.
+
+-----------------------------------------------------------------------------------
+* BASS_FX.TXT & File_ID.Diz are better viewed in DOS mode OR with - Courier - font.
+-----------------------------------------------------------------------------------
+===== BASS-LICENSE.txt =====
+BASS 2.4
+Copyright (c) 1999-2025 Un4seen Developments Ltd. All rights reserved.
+
+
+BASS is an audio library for use in software on several platforms. Its purpose
+is to provide developers with powerful and efficient sample, stream, MOD music,
+and recording functions. All in a compact DLL that won't bloat your software.
+
+Main Features
+-------------
+* Samples
+  supports WAV/AIFF/MP3/MP2/MP1/OGG and custom generated samples
+
+* Sample streams
+  stream any sample data in 8/16/32 bit, with both "push" and "pull" systems
+
+* File streams
+  MP3/MP2/MP1/OGG/WAV/AIFF file streaming
+
+* Internet file streaming
+  stream files from the internet, including Shout/Icecast
+
+* User file streaming
+  stream files from anywhere using any delivery method
+
+* OS codecs
+  ACM, Media Foundation and CoreAudio codec support for additional audio formats
+
+* Multi-channel streaming
+  support for more than plain stereo, including multi-channel OGG/WAV/AIFF files
+
+* MOD music
+  uses the same engine as XMPlay = best accuracy, speed, and quality
+
+* MO3 music
+  MP3/OGG compressed MOD music
+
+* Add-on system
+  support for more formats is available via add-ons (aka plugins)
+
+* Multiple outputs
+  simultaneously use multiple soundcards, and move channels between them
+
+* Recording
+  flexible recording system, with support for multiple devices
+
+* Decode without playback
+  streams and MOD musics can be outputted in any way you want
+
+* Speaker assignment
+  assign streams and MOD musics to specific speakers
+
+* High precision synchronization
+  synchronize events in your software to the streams and MOD musics
+
+* Effects
+  chorus/compressor/distortion/echo/flanger/gargle/parameq/reverb
+
+* User-defined DSP functions
+  custom effects may be applied to individual streams or the final output mix
+
+* 32 bit floating-point decoding and processing
+  floating-point stream/music decoding, DSP/FX, and recording
+
+* 3D sound
+  play samples/streams/musics in any 3D position
+
+
+Requirements
+============
+Win32 version
+-------------
+Windows 98 or newer is required with an SSE-supporting CPU. BASS can use WASAPI
+or DirectSound for playback and recording. WASAPI is the default on Windows
+Vista and newer, while DirectSound is on older Windows versions. 32-bit and
+64-bit Windows are supported. ARM64 support is available separately at the BASS
+website.
+
+macOS version
+-------------
+macOS 10.6 or above is required. The arm64 / x86_64 / i386 architectures are
+supported in a single universal library.
+
+Linux version
+-------------
+BASS requires ALSA for playback and recording, but decoding and silent playback
+on the "No sound" device is still possible without it. The x86 / x86_64 /
+armhf / aarch64 architectures are supported. The x86 build requires SSE, while
+the armhf build requires ARMv6+VFP2 or above.
+
+Android version
+---------------
+Android 2.3 or above is required. BASS can use AAudio, OpenSL ES, or AudioTrack
+for playback, and AAudio or OpenSL ES for recording. AAudio is the default on
+Android 8.1 and above, while OpenSL ES is on older Android versions. The
+armeabi-v7a / arm64-v8a / x86 / x86_64 architectures are supported.
+
+iOS version
+-----------
+iOS 8 or above is required. armv7 / armv7s / arm64 "device" builds and
+i386 / x86_64 / arm64 "simulator" builds are supported in a single universal
+framework.
+
+
+Using BASS
+==========
+See the documentation for descriptions of all the BASS functions. Also check
+the included example source-codes for some examples of how to use BASS in your
+own programs.
+
+There is no guarantee that all future BASS versions will be compatible with all
+previous versions, so your program should use BASS_GetVersion to check the
+version that is loaded. This also means that you should put the BASS module in
+the same directory as your executable (not just somewhere in the path), to
+avoid the possibility of a wrong version being loaded.
+
+If you are updating your software from a previous BASS version, then you should
+check the "History" section (below), to see if any of the functions that you
+are using have been affected by a change. Also see the "Upgrading" section of
+the documentation.
+
+NOTE: To view the documentation outside of Windows, you will need a CHM file
+      viewer. The documentation can also be viewed online at the BASS website.
+
+Win32 version
+-------------
+C/C++, Delphi, and Visual Basic APIs and example projects are provided. To
+use BASS with another language you will first have to convert the header
+file. Or, as a last resort, you could use LoadLibrary and GetProcAddress.
+
+The downside is that you have to manually import each function that you
+use, with the GetProcAddress function. But it has been made a lot simpler
+to import BASS this way by the use of the BASSDEF #define. Here's a small
+example:
+
+#define BASSDEF(f) (WINAPI *f) // define the functions as pointers
+#include "bass.h"
+...
+HINSTANCE bass=LoadLibrary("BASS.DLL"); // load BASS
+BASS_Init=GetProcAddress(bass,"BASS_Init"); // get BASS_Init
+BASS_Init(-1,44100,0,hWnd,NULL); // call BASS_Init
+
+To use BASS with Borland C++ Builder, you will first have to create a Borland
+C++ Builder import library for it. This is done by using the IMPLIB tool that
+comes with Borland C++ Builder. Simply execute this:
+
+	IMPLIB BASSBCB.LIB BASS.DLL
+
+... and then use BASSBCB.LIB in your projects to import BASS.
+
+To use BASS with LCC-Win32, you will first have to create a compatible import
+library for it. This is done by using the PEDUMP and BUILDLIB tools that come
+with LCC-Win32. Run these 2 commands:
+
+	PEDUMP /EXP BASS.LIB > BASSLCC.EXP
+	BUILDLIB BASSLCC.EXP BASSLCC.LIB
+
+... and then use BASSLCC.LIB in your projects to import BASS.
+
+For the BASS functions that return strings (char*), VB users should use the
+VBStrFromAnsiPtr function to convert the returned pointer into a VB string.
+
+macOS version
+-------------
+LIBBASS.DYLIB is a universal binary with support for the x86_64 / arm64 / i386
+architectures. If not all of those architectures are needed, the included
+makefile can be used to extract the wanted one(s). Type "make x86_64" or
+"make arm64" or "make i386" to extract a particular architecture. "make 64bit"
+can be used to extract the x86_64 and arm64 architectures (exclude i386), and
+"make intel" to extract the x86_64 and i386 architectures (exclude arm64). Any
+BASS add-ons placed in the same directory will also be processed.
+
+NOTE: You will need to exclude the i386 architecture (run "make 64bit") for
+      submitting an app to Apple's App Store.
+
+Since BASS 2.4.17, the BASS/add-on libraries use the "@rpath" install path,
+while "@loader_path was used by older versions. If upgrading from an old
+version, you may need to change your copy/embed destination to "Frameworks"
+rather than "Executables", unless your "Runtime Search Paths" setting includes
+"@executable_path" or "@loader_path". The included makefile ("make rpath") can
+be used to update older BASS/add-on versions to use "@rpath".
+
+See the example Xcode project.
+
+Linux version
+-------------
+The LIBBASS.SO file needs to be in the OS's library search path for it to
+be found; simply placing it in the same directory as the executable won't
+necessarily work as it does on other platforms. The BASS libraries should
+also not be placed in the standard library directories to avoid version
+conflicts. To meet those competing requirements, a wrapper script could be
+used to set the "LD_LIBRARY_PATH" environment variable before loading the
+executable. Another option is to set the "rpath" in the executable to tell
+it where to look for libraries, which is what the example makefiles do.
+
+When building for multiple architectures, it is possible to simply try linking
+with all LIBBASS.SO versions, and the linker will use the appropriate one and
+ignore the others.
+
+Android version
+---------------
+The BASS library includes support for use in Java and native code. The
+BASS.JAVA file mirrors BASS.H as much as possible, but there are some
+unavoidable differences, mainly in parameter/return types.
+
+When using ProGuard to obfuscate your Java code, the BASS classes should be
+left alone (see PROGUARD-BASS.PRO).
+
+See the example Android Studio project.
+
+iOS version
+-----------
+The BASS XCFramework should be added to XCode's "Frameworks, Libraries, and
+Embedded Content" section. If you're using an old Xcode version without
+XCFramework support then you can instead directly use the "device" or
+"simulator" framework from within the XCFramework. BASS does not include
+bitcode, so the "Enable Bitcode" option should be set to "No".
+
+Swift
+-----
+To use BASS with Swift, you will need a bridging header referenced in your
+project's "Objective-C Bridging Header" setting, which includes "#import"
+lines for BASS.H and any add-on headers. See Apple's documentation for more
+information on bridging headers.
+
+
+Included files
+==============
+Win32 version
+-------------
+BASS.TXT        This file
+BASS.DLL        32-bit BASS module
+BASS.CHM        BASS documentation
+X64\
+  BASS.DLL        64-bit BASS module
+C\
+  BASS.H          BASS C/C++ header file
+  BASS.LIB        32-bit BASS import library
+  BASS.SLN        Visual Studio solution for examples
+  MAKEFILE        Makefile for examples
+  MAKEFILE.IN     Makefile helper macros
+  X64\
+    BASS.LIB        64-bit BASS import library
+  3DTEST\         3D example
+    ...
+  BASSTEST\       Simple playback example
+    ...
+  CONTEST\        Console example
+    ...
+  CUSTLOOP\       Custom looping example
+    ...
+  DEVLIST\        Device list example
+    ...
+  DSPTEST\        DSP example
+    ...
+  FXTEST\         Effects example
+    ...
+  LIVEFX\         Full-duplex example
+    ...
+  LIVESPEC\       Live version of spectrum analyser example
+    ...
+  MODTEST\        MOD music example
+    ...
+  MULTI\          Multiple device example
+    ...
+  NETRADIO\       Internet streaming example
+    ...
+  PLUGINS\        Plugins example
+    ...
+  RECTEST\        Recording example
+    ...
+  SPEAKERS\       Multi-speaker example
+    ...
+  SPECTRUM\       Spectrum analyser example
+    ...
+  SYNTH\          Low latency custom streaming example
+    ...
+  WRITEWAV\       WAVE writer example
+    ...
+  BIN\            Precompiled examples
+    3DTEST.EXE
+    BASSTEST.EXE
+    CONTEST.EXE
+    CUSTLOOP.EXE
+    DEVLIST.EXE
+    DSPTEST.EXE
+    FXTEST.EXE
+    LIVEFX.EXE
+    LIVESPEC.EXE
+    MODTEST.EXE
+    MULTI.EXE
+    NETRADIO.EXE
+    RECTEST.EXE
+    SPEAKERS.EXE
+    SPECTRUM.EXE
+    SYNTH.EXE
+    WRITEWAV.EXE
+DELPHI\
+  BASS.PAS        BASS Delphi/Pascal unit
+  3DTEST\         3D example
+    ...
+  BASSTEST\       Simple playback example
+    ...
+  CONTEST\        Console example
+    ...
+  CUSTLOOP\       Custom looping example
+    ...
+  DSPTEST\        DSP example
+    ...
+  FXTEST\         Effects example
+    ...
+  LIVEFX\         Full-duplex example
+    ...
+  LIVESPEC\       Live version of spectrum analyser example
+    ...
+  MULTI\          Multiple device example
+    ...
+  NETRADIO\       Internet streaming example
+    ...
+  PLUGINS\        Plugins example
+    ...
+  RECTEST\        Recording example
+    ...
+  SAMPLEVIS\      Visualisation example
+    ...
+  SPEAKERS\       Multi-speaker example
+    ...
+  SPECTRUM\       Spectrum analyser example
+    ...
+  STREAMTEST\     User stream example
+    ...
+  WRITEWAV\       WAVE writer example
+    ...
+VB\
+  BASS.BAS        BASS Visual Basic module
+  3DTEST\         3D example
+    ...
+  BASSTEST\       Simple playback example
+    ...
+  CUSTLOOP\       Custom looping example
+    ...
+  DEVLIST\        Device list example
+    ...
+  DSPTEST\        DSP example
+    ...
+  FXTEST\         Effects example
+    ...
+  LIVEFX\         Full-duplex example
+    ...
+  LIVESPEC\       Live version of spectrum analyser example
+    ...
+  MODTEST\        MOD music example
+    ...
+  MULTI\          Multiple device example
+    ...
+  NETRADIO\       Internet streaming example
+    ...
+  PLUGINS\        Plugins example
+    ...
+  RECTEST\        Recording example
+    ...
+  SPEAKERS\       Multi-speaker example
+    ...
+  SPECTRUM\       Spectrum analyser example
+    ...
+  SYNTH\          Low latency custom streaming example
+    ...
+  WRITEWAV\       WAVE writer example
+    ...
+  MEMORY\         Playing from memory example by Jobnik
+    ...
+
+NOTE: You may need to "Unblock" the BASS.CHM file in its "Properties" to view
+      it. The documentation can also be viewed online at the BASS website.
+
+NOTE: To run the example EXEs, first you will need to copy BASS.DLL into the
+      same directory as them.
+
+NOTE: The Delphi and VB examples may not always be up to date with the C
+      examples, so the latter should be preferred as references if possible.
+
+macOS version
+-------------
+BASS.TXT        This file
+LIBBASS.DYLIB   BASS module
+BASS.CHM        BASS documentation
+MAKEFILE        Makefile for specific architectures
+C\
+  BASS.H          BASS C/C++/Objective-C header file
+  BASS.XCODEPROJ  Xcode project for examples
+  CONTEST\        Console example
+    ...
+  DEVLIST\        Device list example
+    ...
+  DSPTEST\        DSP example
+    ...
+  FXTEST\         Effects example
+    ...
+  LIVESPEC\       Live version of spectrum analyser example
+    ...
+  MULTI\          Multiple device example
+    ...
+  NETRADIO\       Internet streaming example
+    ...
+  PLUGINS\        Plugins example
+    ...
+  RECTEST\        Recording example
+    ...
+  SPEAKERS\       Multi-speaker example
+    ...
+  SPECTRUM\       Spectrum analyser example
+    ...
+  SYNTH\          Low latency custom streaming example
+    ...
+  WRITEWAV\       WAVE writer example
+    ...
+DELPHI\
+  BASS.PAS        BASS Delphi/Pascal unit
+  DEMO\
+    ...
+
+Linux version
+-------------
+BASS.TXT        This file
+BASS.CHM        BASS documentation
+LIBS\           BASS modules
+  ...
+C\
+  BASS.H          BASS C/C++ header file
+  MAKEFILE        Makefile for examples
+  MAKEFILE.IN     Makefile helper macros
+  3DTEST\         3D example
+    ...
+  BASSTEST\       Simple playback example
+    ...
+  CONTEST\        Console example
+    ...
+  CUSTLOOP\       Custom looping example
+    ...
+  DEVLIST\        Device list example
+    ...
+  DSPTEST\        DSP example
+    ...
+  FXTEST\         Effects example
+    ...
+  LIVESPEC\       Live version of spectrum analyser example
+    ...
+  MODTEST\        MOD music example
+    ...
+  MULTI\          Multiple device example
+    ...
+  NETRADIO\       Internet streaming example
+    ...
+  PLUGINS\        Plugins example
+    ...
+  RECTEST\        Recording example
+    ...
+  SPEAKERS\       Multi-speaker example
+    ...
+  SPECTRUM\       Spectrum analyser example
+    ...
+  SYNTH\          Low latency custom streaming example
+    ...
+  WRITEWAV\       WAVE writer example
+    ...
+DELPHI\
+  BASS.PAS        BASS Delphi/Pascal unit
+
+Android version
+---------------
+BASS.TXT        This file
+BASS.CHM        BASS documentation
+LIBS\           BASS modules
+  ...
+C\
+  BASS.H          BASS C/C++ header file
+JAVA\COM\UN4SEEN\BASS\
+  BASS.JAVA       BASS Java class
+EXAMPLES\       Java examples
+  BUILD.GRADLE    Android Studio build script for examples
+  SETTINGS.GRADLE
+  PROGUARD-BASS.PRO
+  DSPTEST\        DSP example
+    ...
+  FXTEST\         Effects example
+    ...
+  LIVESPEC\       Live version of spectrum analyser example
+    ...
+  NETRADIO\       Internet streaming example
+    ...
+  PLUGINS\        Plugins example
+    ...
+  RECTEST\        Recording example
+    ...
+  SPECTRUM\       Spectrum analyser example
+    ...
+  BASSLIB\        BASS library wrapper shared by examples
+    ...
+
+iOS version
+-----------
+BASS.TXT        This file
+BASS.XCFRAMEWORK  BASS framework
+BASS.CHM        BASS documentation
+BASS.H          BASS C/C++/Objective-C header file
+
+
+Latest Version
+==============
+The latest version of BASS can always be found at the BASS website:
+
+	www.un4seen.com
+
+
+Licence
+=======
+BASS is free for non-commercial use. If you are a non-commercial entity
+(eg. an individual) and you are not making any money from your product
+(through sales/advertising/etc), then you can use BASS in it for free.
+If you wish to use BASS in commercial products, then please also see the
+next section.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, BASS IS PROVIDED
+"AS IS", WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY
+AND/OR FITNESS FOR A PARTICULAR PURPOSE. THE AUTHORS SHALL NOT BE HELD
+LIABLE FOR ANY DAMAGE THAT MAY RESULT FROM THE USE OF BASS. YOU USE
+BASS ENTIRELY AT YOUR OWN RISK.
+
+Usage of BASS indicates that you agree to the above conditions.
+
+All trademarks and other registered names contained in the BASS
+package are the property of their respective owners.
+
+Commercial licensing
+--------------------
+BASS is available for use in your commercial products. The licence types
+available are as follows:
+
+SHAREWARE: Allows the usage of BASS in an unlimited number of your shareware
+("try before you buy") products, which must sell for no more than 40 EUR each.
+Non-shareware products are also permitted, but the price limit is 10 EUR in
+that case. With subscription models, the limit applies to the annual
+subscription fee. The limit can be raised by purchasing duplicate licences (for
+the same platform), eg. 2 licences doubles it. If you are an individual (not a
+corporation) making and selling your own software, this is the licence for you.
+
+SINGLE COMMERCIAL: Allows the usage of BASS in one commercial product.
+
+UNLIMITED COMMERCIAL: Allows the usage of BASS in an unlimited number of your
+commercial products. This licence is on a per-site basis, eg. if you are
+creating products with BASS at 2 sites/locations, then 2 licences are required.
+
+Please note the products must be end-user products, eg. not components used by
+other products. 
+
+These licences only cover your own software, not the publishing of other's
+software. If you publish other's software, its developers (or the software
+itself) will need to be licensed to use BASS.
+
+These licences are on a per-platform basis, with reductions available when
+licensing for multiple platforms. In all cases there are no royalties to pay,
+and you can use future BASS updates without further cost.
+
+These licences do not allow reselling/sublicensing of BASS. For example, if a
+product is a development system, the users of said product are not licensed to
+use BASS in their productions; they will need their own licences.
+
+If the standard licences do not meet your requirements, or if you have any
+questions, please get in touch (email: bass@un4seen.com).
+
+Visit the BASS website for the latest pricing:
+
+	www.un4seen.com
+
+
+Credits
+=======
+MP3 decoding is based on minimp3, https://github.com/lieff/minimp3
+
+Ogg Vorbis decoding is based on libogg/vorbis,
+Copyright (c) 2002-2020 Xiph.org Foundation
+
+API/Sample contributors
+-----------------------
+Delphi: Titus Miloi, Rogier Timmermans, Alessandro Cappellozza,
+        Jesse Naranjo, Chris Troesken, Evgeny Melnikov
+Visual Basic: Adam Hoult, Hendrik Knaepen, Arthur Aminov,
+              Peter Hebels, Juan Pablo Franchi
+
+
+History
+=======
+These are the major (and not so major) changes in each release, along with the
+functions/options that are introduced/affected by them. There are other little
+tweaks and fixes made along the way too.
+
+2.4.18.3 - 15/12/2025
+---------------------
+* Support for MP3/MP2/MP1 data in a single track MP4 container
+	BASS_StreamCreateFile/User/URL
+* Specific error code for seeking failures that leave a stream unable to continue
+	BASS_ERROR_ENDED (BASS_ChannelSetPosition error code)
+* Tweaks for internet/buffered streaming with Media Foundation codecs
+	BASS_StreamCreateURL
+	BASS_StreamCreateFileUser
+	BASS_ChannelSetPosition
+* Fix for missing iTunes MP4 tags bug in 2.4.18
+	BASS_TAG_MP4 (BASS_ChannelGetTags type)
+* Fix for burst of old sound when restarting a stopped device on Windows
+	BASS_Start
+
+2.4.18 - 7/10/2025
+------------------
+* Downmixed multi-channel playback
+	BASS_CONFIG_DOWNMIX (BASS_SetConfig option)
+	BASS_ATTRIB_DOWNMIX (BASS_ChannelSetAttribute option)
+* Multi-channel DX8 effect support
+	BASS_ChannelSetFX
+* DSP/FX on individual mono/stereo channels within multi-channel streams
+	BASS_ChannelSetDSPEx
+	BASS_DSP_MONO_N/BASS_DSP_STEREO_N (BASS_ChannelSetDSPEx/FX flags)
+* DSP/FX bypassing
+	BASS_DSP_BYPASS (BASS_ChannelSetDSPEx/FX flag)
+	BASS_FXSetBypass
+* Floating-point DSP functions
+	BASS_DSP_FLOAT (BASS_ChannelSetDSPEx flag)
+* Read-only DSP functions
+	BASS_DSP_READONLY (BASS_ChannelSetDSPEx flag)
+* Freed/removed DSP function notifications
+	BASS_DSP_FREECALL (BASS_ChannelSetDSPEx flag)
+* DSP/FX freeing without needing a channel handle
+	BASS_FXFree
+	FXTEST example updated
+* DSP/FX processing granularity support on decoding channels
+	BASS_ATTRIB_GRANULE (BASS_ChannelSetAttribute option)
+* DSP callback position retrieval
+	BASS_POS_DSP (BASS_ChannelGetPosition mode)
+* Channels can be assigned to unavailable speakers
+	BASS_SPEAKER_xxx (BASS_MusicLoad/BASS_StreamCreate/File/URL flags)
+* Speaker flags can be added/removed after channel creation and set to unavailable ones
+	BASS_ChannelFlags
+* Multi-speaker output enabling on Android
+	BASS_DEVICE_SPEAKERS (BASS_Init flag)
+* Multi-speaker output on "No Sound" device
+	BASS_DEVICE_SPEAKERS (BASS_Init flag)
+* Configurable "No sound" device update delay limit
+	BASS_CONFIG_NOSOUND_MAXDELAY (BASS_SetConfig option)
+* Device list notifications on Windows/macOS
+	BASS_CONFIG_DEV_NOTIFY (BASS_SetConfigPtr option)
+	DEVICENOTIFYPROC
+* User handling of all local file reading
+	BASS_CONFIG_FILEOPENPROCS (BASS_SetConfigPtr option)
+	FILEOPENPROC
+	BASS_FILEOPENPROCS structure
+* Monotonic byte position (unaffected by seeking) retrieval and syncing
+	BASS_POS_RAW (BASS_ChannelGetPosition mode)
+	BASS_SYNC_POS_RAW (BASS_ChannelSetSync type)
+* Custom end position is rounded-up to nearest sample
+	BASS_POS_END (BASS_ChannelGetPosition mode)
+* Retrieval of custom end and loop position settings
+	BASS_POS_END (BASS_ChannelGetPosition mode)
+	BASS_POS_LOOP (BASS_ChannelGetPosition mode)
+* Integer attribute values
+	BASS_ChannelSetAttributeEx
+	BASS_ChannelGetAttributeEx
+	BASS_ATTRIBTYPE_FLOAT
+	BASS_ATTRIBTYPE_INT
+* Unlimited user-defined attribute size
+	BASS_ATTRIB_USER (BASS_ChannelSetAttributeEx option)
+* DSP volume priority attribute retrieval
+	BASS_ATTRIB_VOLDSP_PRIORITY (BASS_ChannelGetAttribute/Ex option)
+* Setting an attribute cancels sliding of it
+	BASS_ChannelSetAttribute/Ex
+	BASS_ChannelSlideAttribute
+* RECORDPROC option for doing nothing with the data
+	RECORDPROC_TRUE (BASS_RecordStart option)
+	LIVESPEC example updated
+* Constant added for recording without a RECORDPROC
+	RECORDPROC_NONE (BASS_RecordStart option)
+* Minimum recording period reduced to 1ms
+	BASS_RecordStart
+* A recording channel is no longer auto-freed when it fails
+	BASS_RecordStart
+	BASS_SYNC_DEV_FAIL (BASS_ChannelSetSync type)
+* ID3v2 tag block retrieval with its length
+	BASS_TAG_ID3V2_BINARY (BASS_ChannelGetTags type)
+	BASS_TAG_ID3V2_2_BINARY (BASS_ChannelGetTags type)
+	TAG_BINARY structure
+	BASS_TAG_ID3V2 deprecated
+	BASS_TAG_ID3V2_2 deprecated
+* MP4 cover art retrieval
+	BASS_TAG_MP4_COVERART (BASS_ChannelGetTags type)
+* MOD music filename retrieval
+	BASS_CHANNELINFO filename member
+* Internet stream creation cancelling
+	BASS_StreamCancel
+	NETRADIO example updated
+* File reading "mem" option changed to a multi-option "filetype"
+	BASS_FILE_NAME
+	BASS_FILE_MEM
+	BASS_StreamCreateFile
+	BASS_SampleLoad
+	BASS_MusicLoad
+* Option to use a copy when streaming a file from memory
+	BASS_FILE_MEMCOPY (BASS_StreamCreateFile option)
+* Streaming from file handles/descriptors
+	BASS_FILE_HANDLE
+	BASS_StreamCreateFile
+	BASS_SampleLoad
+	BASS_MusicLoad
+* ParcelFileDescriptors are duplicated so they can be reused on Android
+	BASS_StreamCreateFile
+	BASS_SampleLoad
+	BASS_MusicLoad
+* Thread-specific playback buffer option
+	BASS_CONFIG_THREAD (BASS_SetConfig flag)
+	BASS_CONFIG_BUFFER (BASS_SetConfig option)
+* Thread-specific asynchronous file reading buffer option
+	BASS_CONFIG_THREAD (BASS_SetConfig flag)
+	BASS_CONFIG_ASYNCFILE_BUFFER (BASS_SetConfig option)
+* Retrieval of asynchronous file reading buffer size
+	BASS_FILEPOS_ASYNCSIZE (BASS_StreamGetFilePosition mode)
+* Channel reference counting for delayed/asynchronous freeing
+	BASS_ChannelRef
+	BASS_ChannelFree
+	BASS_StreamFree
+	BASS_MusicFree
+	BASS_TAG_INCREF (BASS_ChannelGetTags flag)
+* Channels can be freed (asynchronously) within their callback functions
+	BASS_ChannelFree
+	BASS_StreamFree
+	BASS_MusicFree
+* Freeing a locked channel disables other calls on it while waiting for unlock
+	BASS_ChannelLock
+	BASS_ChannelFree
+	BASS_StreamFree
+	BASS_MusicFree
+* Improved MP3 seeking accuracy without prescanning
+	BASS_ChannelSetPosition
+* Improved performance of playback/recording data retrieval
+	BASS_ChannelGetData
+	BASS_ChannelGetLevel/Ex
+* 16 point SRC is used by default when NEON is available
+	BASS_CONFIG_SRC (BASS_SetConfig option)
+* Option to play audio from videos now applies to all formats (may require add-on updates)
+	BASS_CONFIG_MF_VIDEO renamed to BASS_CONFIG_VIDEO (BASS_SetConfig option)
+* Option to disable all Android Media codecs except AAC/ADTS
+	BASS_CONFIG_AM_DISABLE (BASS_SetConfig option)
+* Apple voice processing for echo cancellation on macOS/iOS
+	BASS_DEVICE_APPLEVOICE (BASS_Init flag)
+* Stereo output limiting on macOS
+	BASS_DEVICE_STEREO (BASS_Init flag)
+* Initialization flag for OpenSL ES output on Android
+	BASS_DEVICE_OPENSLES (BASS_Init flag)
+* AAudio recording on Android (OpenSL ES is fallback/optional)
+	BASS_RECORD_OPENSLES (BASS_RecordStart flag)
+* Native recording format retrieval on Android (8.1 and above)
+	BASS_RecordGetInfo
+	RECTEST example updated
+* Supported recording formats info removed on old Windows (as on other platforms)
+	BASS_RECORDINFO formats member
+* Unused structure members removed (changed to "reserved")
+	BASS_INFO structure
+	BASS_SAMPLE structure
+* buffer parameter must be 0 when using BASS_DATA_AVAILABLE flag
+	BASS_ChannelGetData
+* Support for custom "Host" request header on Linux/Android/UWP (already on other platforms)
+	BASS_StreamCreateURL
+* libssl.so.3 added to OpenSSL library search list on Linux
+	BASS_StreamCreateURL
+	BASS_CONFIG_LIBSSL (BASS_SetConfigPtr option)
+* 16KB page support on Android
+* Fix for bug in Doppler effect from listener velocity
+	BASS_Set3DPosition
+* Channel order fix for 7/8 channel OGG files
+	BASS_StreamCreateFile/User/URL
+* Fix for Media Foundation FLAC decoder seeking freeze
+	BASS_ChannelSetPosition
+
+2.4.17 - 12/10/2022
+-------------------
+* "Default" recording device on Windows/macOS
+	BASS_RecordInit
+	BASS_RecordGetDeviceInfo
+	BASS_CONFIG_REC_DEFAULT (BASS_SetConfig option)
+* Recording continues after device format changes on Windows/macOS
+	BASS_RecordStart
+	BASS_SYNC_DEV_FORMAT (BASS_ChannelSetSync type)
+* DSP volume control
+	BASS_ATTRIB_VOLDSP (BASS_ChannelSetAttribute option)
+	BASS_ATTRIB_VOLDSP_PRIORITY (BASS_ChannelSetAttribute option)
+	RECTEST example updated
+* Auto-reconnecting when a download stops before the end
+	BASS_StreamCreateURL
+* Internet streams use HTTP/1.1 instead of HTTP/1.0
+	BASS_StreamCreateURL
+* Download callback changing after stream creation
+	BASS_ATTRIB_DOWNLOADPROC (BASS_ChannelSetAttributeEx option)
+	NETRADIO example updated
+* Thread-specific internet/buffered stream download buffer option
+	BASS_CONFIG_THREAD (BASS_SetConfig flag)
+	BASS_CONFIG_NET_BUFFER (BASS_SetConfig option)
+	BASS_StreamCreateURL/FileUser
+* Internet stream creation never waits for pre-buffering
+	BASS_CONFIG_NET_PREBUF_WAIT disabled
+	BASS_StreamCreateURL/FileUser
+* Stalled stream resumption buffer level defaults to prebuffer level
+	BASS_ATTRIB_NET_RESUME (BASS_ChannelSetAttribute option)
+* New simplified channel starting/playing function
+	BASS_ChannelStart
+* Channel remapping fix for various multi-channel source/output combinations
+	BASS_ChannelStart/Play
+* Support for using common add-on name instead of platform-specific filename in plugin loading
+	BASS_PluginLoad
+	NETRADIO example updated
+* Library filename/path retrieval
+	BASS_CONFIG_FILENAME (BASS_GetConfigPtr option)
+	PLUGINS and WRITEWAV examples updated
+* Device info is still available if reinitialization fails
+	BASS_GetInfo
+	BASS_DEVICE_REINIT (BASS_Init flag)
+* Playback ramping-in/out can be disabled separately
+	BASS_ATTRIB_NORAMP (BASS_ChannelSetAttribute option)
+* Default playback ramping setting
+	BASS_CONFIG_NORAMP (BASS_SetConfig option)
+* Error code for when access is denied
+	BASS_ERROR_DENIED
+	BASS_StreamCreateURL
+	BASS_RecordStart
+* REAR2 speaker flags renamed/duplicated to SIDE
+	BASS_SPEAKER_SIDE/SIDELEFT/SIDERIGHT (BASS_MusicLoad/BASS_StreamCreate/File/URL flags)
+* Switch to dynamic library/framework (rather than static) on iOS
+	BASS_PluginLoad
+* Recording routing audio session options on iOS
+	BASS_IOS_SESSION_AIRPLAY/BTHFP/BTA2DP (BASS_CONFIG_IOS_SESSION flags)
+* Audio session deactivation when nothing is playing/recording on iOS
+	BASS_IOS_SESSION_DEACTIVATE (BASS_CONFIG_IOS_SESSION flag)
+* Interrupted status retrieval on iOS
+	BASS_IsStarted
+* Floating-point recording support below Android 5 (already supported above)
+	BASS_RecordStart
+* Internet stream support for Linux systems without /etc/services file
+	BASS_StreamCreateURL
+* Fix for IPv6 addresses in URLs on Windows/Linux/Android
+	BASS_StreamCreateURL
+* Fix for getting volume changes made externally on Linux
+	BASS_GetVolume
+	BASS_RecordGetInput
+* Media Foundation Matroska support disabled due to a leak in it (use BASSWEBM instead)
+* macOS version now uses "@rpath" instead of "@loader_path" install path
+* ARM builds are now included (instead of separate) on Linux
+* Non-FPU ARM architecture support dropped (Windows CE and "softfp" Linux)
+* SSE is required on x86 platforms (Windows 95 dropped)
+
+2.4.16 - 24/6/2021
+------------------
+* DirectSound output mix is now generated by BASS (as with WASAPI output and
+  on other platforms), losing support for DirectSound-specific features but
+  gaining support for all other BASS features
+	BASS_DEVICE_DSOUND (BASS_Init flag)
+	BASS_SAMPLE_FX/SOFTWARE/VAM *ignored*
+* Length trimming
+	BASS_POS_END (BASS_ChannelSetPosition mode)
+	BASS_SYNC_END (BASS_ChannelSetSync type)
+	CUSTLOOP and WRITEWAV examples updated
+* Custom loop start positions
+	BASS_POS_LOOP (BASS_ChannelSetPosition mode)
+	CUSTLOOP example updated
+* Length extending
+	BASS_ATTRIB_TAIL (BASS_ChannelSetAttribute option)
+	BASS_SYNC_END (BASS_ChannelSetSync type)
+* Device reinitialization while retaining BASS channels and 3D settings
+	BASS_DEVICE_REINIT (BASS_Init flag)
+* Retrieval of a device's activity status
+	BASS_IsStarted
+* BASS_DEVICE_3D flag is no longer needed to enable 3D support
+	BASS_Init
+* The "Default" device is now enabled by default on Windows/macOS
+	BASS_CONFIG_DEV_DEFAULT (BASS_SetConfig option)
+* Default communications device indicator on Windows
+	BASS_DEVICE_DEFAULTCOM (BASS_DEVICEINFO flag)
+* Sample channel "newonly" option changed to a flag
+	BASS_SAMCHAN_NEW (BASS_SampleGetChannel flag)
+* Sample playback streams
+	BASS_SAMCHAN_STREAM (BASS_SampleGetChannel flag)
+	BASS_CTYPE_STREAM_SAMPLE
+* Speaker assignment support for samples
+	BASS_SampleGetChannel
+	BASS_ChannelFlags
+* Overriding of default flags during sample channel creation
+	BASS_SampleGetChannel
+* Same sample channel handle when max=1 is now optional
+	BASS_CONFIG_SAMPLE_ONEHANDLE (BASS_SetConfig option)
+* 3D max distance muting can now be toggled
+	BASS_SAMPLE_MUTEMAX (BASS_ChannelFlags flag)
+* Plugin disabling without affecting existing streams
+	BASS_PluginEnable
+* WASAPI recording on Windows (DirectSound is fallback/optional)
+	BASS_CONFIG_REC_WASAPI (BASS_SetConfig option)
+	BASS_RecordInit
+* Minimum recording buffer reduced to 10ms
+	BASS_CONFIG_REC_BUFFER (BASS_SetConfig option)
+* Recording data/level retrieval without removing from buffer when not using a RECORDPROC
+	BASS_DATA_NOREMOVE (BASS_ChannelGetData flag)
+	BASS_LEVEL_NOREMOVE (BASS_ChannelGetLevelEx flag)
+* Support for level measurements longer than 1s from decoding channels
+	BASS_ChannelGetLevelEx
+* Configurable restricted download rate
+	BASS_CONFIG_NET_RESTRATE (BASS_SetConfig option)
+* Thread-specific internet stream timeout options
+	BASS_CONFIG_THREAD (BASS_SetConfig flag)
+	BASS_CONFIG_NET_TIMEOUT (BASS_SetConfig option)
+	BASS_CONFIG_NET_READTIMEOUT (BASS_SetConfig option)
+	BASS_StreamCreateURL
+* Configured "User-Agent" header can be overridden in custom request headers
+	BASS_StreamCreateURL
+* Multiple IPs will be tried when available on Linux/Android (already on other platforms)
+	BASS_StreamCreateURL
+* BASS_STREAM_BLOCK applied automatically on files larger than 2GB
+	BASS_StreamCreateURL/FileUser
+* Redirected URL retrieval
+	BASS_TAG_LOCATION (BASS_ChannelGetTags type)
+* Shoutcast metadata is now optional
+	BASS_CONFIG_NET_META (BASS_SetConfig option)
+	BASS_TAG_META (BASS_ChannelGetTags type)
+* Support for a 2nd ID3v2 tag block
+	BASS_TAG_ID3V2_2 (BASS_ChannelGetTags type)
+* OpenMPT channel name retrieval
+	BASS_TAG_MUSIC_CHAN (BASS_ChannelGetTags type)
+* Built-in support for MP4 tags on all platforms
+	BASS_TAG_MP4 (BASS_ChannelGetTags type)
+* Delayed OGG file scanning when prescanning is disabled/impossible
+	BASS_ChannelGetLength
+	BASS_ChannelSetPosition
+	BASS_CONFIG_OGG_PRESCAN (BASS_SetConfig option)
+* Faster seeking in large OGG files
+	BASS_ChannelSetPosition
+* Unified freeing function for all channel types
+	BASS_ChannelFree
+* User-defined attribute
+	BASS_ATTRIB_USER (BASS_ChannelSetAttributeEx option)
+* Push stream buffer size limiting
+	BASS_ATTRIB_PUSH_LIMIT (BASS_ChannelSetAttribute option)
+* Retrieval of a stream's available file data amount
+	BASS_FILEPOS_AVAILABLE (BASS_StreamGetFilePosition mode)
+* Error code for unsupported URL protocols
+	BASS_ERROR_PROTOCOL (BASS_StreamCreateURL error code)
+* BASS_ERROR_ALREADY error changed to success in some functions
+	BASS_ChannelPause
+	BASS_ChannelSetDevice
+	BASS_ChannelSetLink
+* Support for custom file streaming with Android Media codecs
+	BASS_StreamCreateFileUser
+* Switch to using native APIs for Android Media codecs (Android 5 or above required now)
+	BASS_StreamCreateFile/User/URL
+* BASS_TAG_AM_MIME value changed to fix conflict on Android
+	BASS_TAG_AM_MIME (BASS_ChannelGetTags type)
+* Improved support for single active input recording devices on Linux
+	BASS_RecordGetInputName
+	BASS_RecordGetInput
+	BASS_RecordSetInput
+* Automatic resumption of recordings after an interruption on iOS
+* Fix for Media Foundation AAC streaming with Windows 10 20H1
+	BASS_StreamCreateURL
+	BASS_StreamCreateFileUser
+* Fix for freeze when freeing a stream after BASS_ChannelSetLink failed with BASS_ERROR_ALREADY on it
+	BASS_ChannelSetLink
+* macOS examples rewritten in Objective-C/Cocoa
+* "MP3-FREE" version removed (MP3 patents expired)
+* armv5 (armeabi) architecture support dropped on Android
+
+2.4.15 - 17/12/2019
+-------------------
+* Channel processing granularity option
+	BASS_ATTRIB_GRANULE (BASS_ChannelSetAttribute option)
+* Asynchronous mixtime sync callbacks
+	BASS_SYNC_THREAD (BASS_ChannelSetSync flag)
+* Output device update period can be set in samples
+	BASS_CONFIG_DEV_PERIOD (BASS_SetConfig option)
+* Continuous output when nothing is playing is now optional on macOS/iOS too
+	BASS_CONFIG_DEV_NONSTOP (BASS_SetConfig option)
+* AAudio output support on Android
+	BASS_Init
+	BASS_CONFIG_ANDROID_AAUDIO (BASS_SetConfig option)
+* Support for audio session IDs on Android
+	BASS_CONFIG_ANDROID_SESSIONID (BASS_SetConfig option)
+* ParcelFileDescriptor support on Android
+	BASS_StreamCreateFile
+	BASS_SampleLoad
+	BASS_MusicLoad
+* FloatValue Java class added to receive floating-point values on Android 10
+	BASS_Get3DFactors
+	BASS_RecordGetInput
+	BASS_ChannelGetAttribute
+	BASS_ChannelGet3DAttributes
+* Audio session configuration option on iOS
+	BASS_CONFIG_IOS_SESSION (BASS_SetConfig option)
+* OGG channel type constant renamed/duplicated to VORBIS
+	BASS_CTYPE_STREAM_VORBIS
+* Error code for recognised file formats without audio
+	BASS_ERROR_NOTAUDIO (BASS_StreamCreateFile/User/URL error code)
+* Error code for unstreamable MP4 files due to atom order
+	BASS_ERROR_UNSTREAMABLE (BASS_StreamCreateFileUser/URL error code)
+* Fix for AAC streaming with BASS_STREAM_BLOCK on macOS 10.15 and iOS 13
+	BASS_StreamCreateURL/FileUser
+* Fix for playback rate changing bug when using DirectSound
+	BASS_ATTRIB_FREQ (BASS_ChannelSetAttribute option)
+* armv6 architecture support dropped on iOS
+
+2.4.14 - 16/1/2019
+------------------
+* Support for playback on the "No sound" device
+	BASS_Init
+	BASS_StreamCreateFile/User/URL
+	BASS_SampleLoad/Create
+	BASS_ChannelPlay
+* Improved sample rate conversion quality, including 64 point option
+	BASS_ATTRIB_SRC (BASS_ChannelSetAttribute option)
+	BASS_CONFIG_SRC/_SAMPLE (BASS_SetConfig options)
+* Loopback (output device) recording on Windows Vista and newer
+	BASS_RecordInit
+	BASS_RecordGetDeviceInfo
+	BASS_DEVICE_LOOPBACK (BASS_DEVICEINFO flag)
+	DEVLIST and RECTEST examples updated
+* Native format recording option
+	BASS_RecordStart
+* Access to the 3D output mix for applying DSP/FX
+	STREAMPROC_DEVICE_3D (BASS_StreamCreate option)
+* Retrieval of a device's started/stopped status
+	BASS_IsStarted
+* Sync for when a device stops unexpectedly
+	BASS_SYNC_DEV_FAIL (BASS_ChannelSetSync type)
+* New channel playback state for a paused device
+	BASS_ACTIVE_PAUSED_DEVICE (BASS_ChannelIsActive)
+* Sync for when a device's sample format changes
+	BASS_SYNC_DEV_FORMAT (BASS_ChannelSetSync type)
+* Adjustable output device update period
+	BASS_CONFIG_DEV_PERIOD (BASS_SetConfig option)
+* Nyquist FFT option
+	BASS_DATA_FFT_NYQUIST (BASS_ChannelGetData flag)
+* Plugin-specific flags are ignored in standard stream creation functions
+	BASS_StreamCreateFile/User/URL
+* Pre-buffering during stream creation is now disabled by default
+	BASS_CONFIG_NET_PREBUF_WAIT (BASS_SetConfig option)
+	BASS_StreamCreateURL/FileUser
+* Existing internet streams are unaffected by read timeout config changes
+	BASS_CONFIG_NET_READTIMEOUT (BASS_SetConfig option)
+* Retrieval of the number of existing handles
+	BASS_CONFIG_HANDLES (BASS_GetConfig option)
+* Windows mixer settings are retained by default and optionally not
+	BASS_CONFIG_WASAPI_PERSIST (BASS_SetConfig option)
+* Configurable OpenSSL library filename on Linux/Android
+	BASS_CONFIG_LIBSSL (BASS_SetConfigPtr option)
+* Files can be deleted/renamed while streaming on Windows (already on other platforms)
+	BASS_StreamCreateFile
+* Fix for bug in playback buffering disabling option
+	BASS_ATTRIB_NOBUFFER (BASS_ChannelSetAttribute option)
+* Fix to support long logarithmic curves in volume effects
+	BASS_FX_VOLUME (BASS_ChannelSetFX type)
+
+2.4.13.8 - 6/2/2018
+-------------------
+* Indication of a file's original sample format being floating-point
+	BASS_ORIGRES_FLOAT (BASS_CHANNELINFO/SAMPLE flag)
+* Some extra sample data is retained to account for device latency in data retrieval
+	BASS_ChannelGetData
+* FFT window is shortened to match amount of available data when less than FFT size
+	BASS_ChannelGetData
+* FFT level adjusted to be approx the same regardless of amount of available data
+	BASS_ChannelGetData
+* Fix for crash when decoding channels are dissociated from a device
+	BASS_NODEVICE (BASS_ChannelSetDevice option)
+
+2.4.13 - 19/12/2017
+-------------------
+* WASAPI output on Windows (DirectSound is fallback/optional)
+	BASS_DEVICE_DSOUND (BASS_Init flag)
+	BASS_CONFIG_DEV_BUFFER/NONSTOP (BASS_SetConfig options)
+	BASS_CONFIG_SRC/_SAMPLE (BASS_SetConfig options)
+	BASS_ATTRIB_SRC/NORAMP (BASS_ChannelSetAttribute options)
+* Default output device following support extended to Windows Vista and macOS
+	BASS_CONFIG_DEV_DEFAULT (BASS_SetConfig option)
+* Seamless playback buffer length changing
+	BASS_ATTRIB_BUFFER (BASS_ChannelSetAttribute option)
+	BASS_ATTRIB_NOBUFFER deprecated
+	SYNTH example updated
+* Access to the final output mix for applying DSP/FX
+	STREAMPROC_DEVICE (BASS_StreamCreate option)
+	BASS_CTYPE_STREAM_DEVICE
+	FXTEST example updated
+* Dissociating of decoding channels from a device
+	BASS_NODEVICE (BASS_ChannelSetDevice option)
+* Volume attribute levels above 1.0 for amplification
+	BASS_ATTRIB_VOL (BASS_ChannelSetAttribute option)
+* Logarithmic attribute slides
+	BASS_SLIDE_LOG (BASS_ChannelSlideAttribute flag)
+* Volume & panning attribute affected level retrieval
+	BASS_LEVEL_VOLPAN (BASS_ChannelGetLevelEx flag)
+* Volume level adjustment effect
+	BASS_FX_VOLUME (BASS_ChannelSetFX type)
+	BASS_FX_VOLUME_PARAM structure
+* Asynchronous pre-buffering
+	BASS_CONFIG_NET_PREBUF_WAIT (BASS_SetConfig option)
+	BASS_StreamCreateURL/FileUser
+	CONTEST and NETRADIO examples updated
+* Decoding channels can be dissociated from a device
+	BASS_ChannelSetDevice
+* Resetting of user file streams/decoders
+	BASS_POS_RESET (BASS_ChannelSetPosition flag)
+* Relative seeking
+	BASS_POS_RELATIVE (BASS_ChannelSetPosition flag)
+* RIFF cue points chunk retrieval
+	BASS_TAG_RIFF_CUE (BASS_ChannelGetTags type)
+	TAG_CUE structure
+* RIFF sample chunk retrieval
+	BASS_TAG_RIFF_SMPL (BASS_ChannelGetTags type)
+	TAG_SMPL structure
+* Support for Category/Description/Grouping/Keywords/Lyrics MP4 tags
+	BASS_TAG_MP4 (BASS_ChannelGetTags type)
+* Separate channel type for dummy streams
+	BASS_CTYPE_STREAM_DUMMY
+* Stalled internet stream buffering progress retrieval
+	BASS_FILEPOS_BUFFERING (BASS_StreamGetFilePosition mode)
+	CONTEST and NETRADIO examples updated
+* Playlist recursion depth config option
+	BASS_CONFIG_NET_PLAYLIST_DEPTH (BASS_SetConfig options)
+* Push file system read functions can now return 0 without ending the file
+	STREAMFILE_BUFFERPUSH (BASS_StreamCreateFileUser system)
+	FILEREADPROC
+* 16 point SRC is used by default when SSE is available
+	BASS_CONFIG_SRC (BASS_SetConfig option)
+* Mono downmixing for all file formats in sample loading
+	BASS_SAMPLE_MONO (BASS_SampleLoad flag)
+* Mono OGG stream downmixing
+	BASS_SAMPLE_MONO (BASS_StreamCreateFile/User/URL flag)
+* Media Foundation availability detection
+	BASS_CONFIG_MF_DISABLE (BASS_GetConfig option)
+	PLUGINS example updated
+* AudioTrack output on Android
+	BASS_DEVICE_AUDIOTRACK (BASS_Init flag)
+* Support for Android Media codecs
+	BASS_StreamCreateFile/User/URL
+	BASS_TAG_AM_MIME/NAME (BASS_ChannelGetTags type)
+	BASS_CONFIG_AM_DISABLE (BASS_SetConfig option)
+* Panning fix for MOD files created with ScreamTracker 3
+	BASS_MusicLoad
+* Fix for compressor and distotion DX8 effects with floating-point data on Windows
+	BASS_FX_DX8_COMPRESSOR/DISTORTION (BASS_ChannelSetFX types)
+* Fix for plugin freeing issue on 64-bit platforms (HPLUGIN is not library address any more)
+	BASS_PluginLoad
+	BASS_PluginFree
+
+2.4.12 - 10/3/2016
+------------------
+* DSP/FX chain order modification
+	BASS_FXSetPriority
+* Average bitrate retrieval
+	BASS_ATTRIB_BITRATE (BASS_ChannelGetAttribute option)
+* Ramping-out when stopping/pausing playback
+	BASS_ChannelStop
+	BASS_ChannelPause
+* Disabling of playback ramping
+	BASS_ATTRIB_NORAMP (BASS_ChannelSetAttribute option)
+* Pre-buffering when playback buffering is disabled
+	BASS_ChannelUpdate
+	BASS_ATTRIB_NOBUFFER (BASS_ChannelSetAttribute option)
+* Net agent and proxy config options now make a copy of the provided string
+	BASS_CONFIG_NET_AGENT/PROXY (BASS_SetConfigPtr options)
+	NETRADIO example updated
+* Unicode net agent and proxy config options on Windows
+	BASS_CONFIG_NET_AGENT/PROXY (BASS_SetConfigPtr options)
+* 32768 sample FFT
+	BASS_DATA_FFT32768 (BASS_ChannelGetData flag)
+* Support for iTunes gapless info in MP3 files
+	BASS_StreamCreateFile/User
+* 529 sample delay removed from start of MP3 files without delay info
+	BASS_StreamCreateFile/User/URL
+* Support for numerical MP4 genre (gnre) tags
+	BASS_TAG_MP4 (BASS_ChannelGetTags type)
+* Support for BASSWMA's tag option when using Media Foundation WMA codec
+	BASS_TAG_WMA (BASS_ChannelGetTags type)
+* OpenMPT author tag retrieval
+	BASS_TAG_MUSIC_AUTH (BASS_ChannelGetTags type)
+* FastTracker2 panning for XM files
+	BASS_MUSIC_FT2PAN (BASS_MusicLoad flag)
+* Support for longer device names on Windows
+	BASS_DEVICEINFO name member
+* Checking for floating-point support on platforms that might not have it
+	BASS_CONFIG_FLOAT (BASS_GetConfig option)
+* Attribute size retrieval fix
+	BASS_ChannelGetAttributeEx
+* Fix for missing LC_VERSION_MIN issue with Xcode 7 on OSX, ppc architecture (PowerPC) support dropped
+* LIST example renamed to DEVLIST
+
+2.4.11 - 22/12/2014
+-------------------
+* Support for custom HTTP request headers
+	BASS_StreamCreateURL
+* HTTPS support on Linux/Android
+	BASS_StreamCreateURL
+* Redirection HTTP headers provided during connection
+	BASS_STREAM_STATUS (BASS_StreamCreateURL flag)
+	DOWNLOADPROC
+* Adjustable stalled internet stream resumption buffer level
+	BASS_ATTRIB_NET_RESUME (BASS_ChannelSetAttribute option)
+* Extended level retrieval inc. multi-channel and RMS options
+	BASS_ChannelGetLevelEx
+* Inexact/faster seeking
+	BASS_POS_INEXACT (BASS_ChannelSetPosition flag)
+* Post-stream creation scanning (seek table building)
+	BASS_POS_SCAN (BASS_ChannelSetPosition flag)
+* Extended attribute support
+	BASS_ChannelSetAttributeEx
+	BASS_ChannelGetAttributeEx
+* Scanned info retrieval and setting
+	BASS_ATTRIB_SCANINFO (BASS_ChannelGet/SetAttributeEx option)
+* Built-in ADPCM WAVE file support on Linux/Android/WinCE
+	BASS_StreamCreateFile/User/URL
+	BASS_SampleLoad
+* Active MOD channel count retrieval
+	BASS_ATTRIB_MUSIC_ACTIVE (BASS_ChannelGetAttribute option)
+* Fractional sample rates
+	BASS_ATTRIB_FREQ (BASS_ChannelSetAttribute option)
+* Device type information
+	BASS_DEVICE_TYPE_xxx (BASS_DEVICEINFO flags)
+* Unicode support for recording input names
+	BASS_CONFIG_UNICODE (BASS_SetConfig option)
+	BASS_RecordGetInputName
+* File size retrieval
+	BASS_FILEPOS_SIZE (BASS_StreamGetFilePosition mode)
+* Asynchronous file reading buffer level retrieval
+	BASS_FILEPOS_ASYNCBUF (BASS_StreamGetFilePosition mode)
+* MPEG data search limit raised to 1MB
+	BASS_CONFIG_VERIFY (BASS_SetConfig option)
+* Separate MPEG data search limit for internet/buffered streams
+	BASS_CONFIG_VERIFY_NET (BASS_SetConfig option)
+* Support for iTunes gapless info with Media Foundation and CoreAudio codecs
+	BASS_StreamCreateFile/User
+* Airplay receiver enumeration and selection on OSX
+	BASS_DEVICES_AIRPLAY (BASS_GetDeviceInfo flag)
+	BASS_CONFIG_AIRPLAY (BASS_SetConfig option)
+* Media Foundation playback of audio from videos is now optional
+	BASS_CONFIG_MF_VIDEO (BASS_SetConfig option)
+* Optional floating-point or fixed-point data retrieval on Android/WinCE
+	BASS_DATA_FLOAT/FIXED (BASS_ChannelGetData flags)
+* Continuous output when nothing is playing on Linux/Android/WinCE
+	BASS_CONFIG_DEV_NONSTOP (BASS_SetConfig option)
+* Fix for decoding channels being ended when stopping the output device
+	BASS_Stop
+* Fix for Media Foundation internet/buffered streaming on Windows 8
+	BASS_StreamCreateURL
+	BASS_StreamCreateFileUser
+* Improved compatibility with recent PulseAudio versions on Linux
+* LIST and MODTEST examples added
+* MASM API and examples removed (available as separate download)
+
+2.4.10 - 16/2/2013
+------------------
+* Asynchronous file reading/buffering
+	BASS_ASYNCFILE (BASS_StreamCreateFile/User flag)
+	BASS_CONFIG_ASYNCFILE_BUFFER (BASS_SetConfig option)
+* Support for chained OGG files (multiple logical bitstreams)
+	BASS_StreamCreateFile/User
+	BASS_CONFIG_OGG_PRESCAN (BASS_SetConfig option)
+	BASS_POS_OGG (BASS_ChannelSetPosition/ChannelGetLength mode)
+* OGG logical bitstream syncs are no longer automatically "mixtime"
+	BASS_SYNC_OGG_CHANGE (BASS_ChannelSetSync type)
+* Support for Soundtracker MOD files
+	BASS_MusicLoad
+* Complex FFT data
+	BASS_DATA_FFT_COMPLEX (BASS_ChannelGetData flag)
+* Volume levels above 1.0 for decoding channels
+	BASS_ATTRIB_VOL (BASS_ChannelSetAttribute option)
+* Recording device channel count retrieval on Windows/OSX/iOS
+	BASS_RECORDINFO formats member
+* Minimum recording period reduced to 5ms
+	BASS_RecordStart
+* Recording device period adjustment on OSX
+	BASS_RecordStart
+* Device UID retrieval on OSX
+	BASS_DEVICEINFO driver member
+* The desktop window handle is used when none is provided
+	BASS_Init
+
+2.4.9 - 3/5/2012
+----------------
+* Improved and adjustable sample rate conversion quality
+	BASS_ATTRIB_SRC (BASS_ChannelSetAttribute option)
+	BASS_CONFIG_SRC/_SAMPLE (BASS_SetConfig options)
+* Support for buffered file & internet streams with CoreAudio codecs on OSX/iOS
+	BASS_StreamCreateURL
+	BASS_StreamCreateUser
+* Data and level retrieval from sample channels
+	BASS_ChannelGetData
+	BASS_ChannelGetLevel
+* Oldest sample channel will be overridden when there are multiple candidates
+	BASS_SampleGetChannel
+* Use of the device's output rate with MODs
+	BASS_MusicLoad
+* Optional device output rate setting on OSX/iOS
+	BASS_DEVICE_FREQ (BASS_Init flag)
+* UTF-8 device information on Windows
+	BASS_CONFIG_UNICODE (BASS_SetConfig option)
+* Speaker assignment with panning/balance control on Windows Vista/7
+	BASS_CONFIG_VISTA_SPEAKERS (BASS_SetConfig option)
+	BASS_ATTRIB_PAN (BASS_ChannelGet/Set/SlideAttribute option)
+* Push stream queue level can be checked after using BASS_STREAMPROC_END
+	BASS_StreamPutData
+* Support for ALSA subdevices on Linux
+	BASS_Init
+	BASS_GetDeviceInfo
+	BASS_RecordInit
+	BASS_RecordGetDeviceInfo
+* Device list fix on 64-bit OSX
+	BASS_GetDeviceInfo
+	BASS_RecordGetDeviceInfo
+* BASS_UNICODE support fix on Linux
+	BASS_PluginLoad
+* Internet streaming tweaks/fixes on Windows
+* SYNTH example updated to use device output rate
+* RECTEST example updated (C version) for better Windows Vista/7 support
+* Documentation updated with platform-specific info for Android
+
+2.4.8 - 29/8/2011
+-----------------
+* Support for Media Foundation codecs on Windows 7 and updated Vista
+	BASS_StreamCreateFile/User/URL
+	BASS_TAG_MF (BASS_ChannelGetTags type)
+	PLUGINS example updated
+* Built-in support for MP4 tags on Win32/OSX/iOS (for Media Foundation & CoreAudio AAC/ALAC codecs)
+	BASS_TAG_MP4 (BASS_ChannelGetTags type)
+* WAVE format chunk retrieval
+	BASS_TAG_WAVEFORMAT (BASS_ChannelGetTags type)
+* Adjustable sample channel limit
+	BASS_SampleSetInfo
+* Per-channel CPU usage monitoring
+	BASS_ATTRIB_CPU (BASS_ChannelGetAttribute option)
+* Pre-allocation of push stream queue space
+	BASS_StreamPutData
+* Support for AIFF files with the data chunk before the format info chunk
+	BASS_StreamCreateFile/User/URL
+* Ramping-in disabled for all but the XM format (and MODs in FT2 mode) in "normal" ramping mode
+	BASS_MUSIC_RAMP (BASS_MusicLoad flag)
+* RIFF "INFO" tag reading fix
+	BASS_TAG_RIFF_INFO (BASS_ChannelGetTags type)
+* OSX 10.7 compatibility fix
+* x86_64 architecture support on OSX
+* Delphi dynamic loading unit removed (now available as separate download)
+
+2.4.7 - 30/11/2010
+------------------
+* Decode-to-position seeking
+	BASS_POS_DECODETO (BASS_ChannelSetPosition flag)
+* Support for RIFF "DISP" text tags
+	BASS_TAG_RIFF_DISP (BASS_ChannelGetTags type)
+* Support for APEv1 tags
+	BASS_TAG_APE (BASS_ChannelGetTags type)
+	BASS_TAG_APE_BINARY (BASS_ChannelGetTags type)
+* 16384 sample FFT
+	BASS_DATA_FFT16384 (BASS_ChannelGetData flag)
+* Support for AIFF files larger than 4GB
+	BASS_StreamCreateFile/User/URL
+* Acceptance of self-signed and invalid certificates
+	BASS_StreamCreateURL
+* Internet stream reading timeout
+	BASS_CONFIG_NET_READTIMEOUT (BASS_SetConfig option)
+* Support for removing a DSP within its DSPPROC
+	BASS_ChannelRemoveDSP
+* Buffer bypassing for lower latency output (not available on Windows)
+	BASS_ATTRIB_NOBUFFER (BASS_ChannelSetAttribute option)
+	SYNTH example added (OSX)
+* A "Default" device that follows default device changes on Windows 7
+	BASS_CONFIG_DEV_DEFAULT (BASS_SetConfig option)
+* Xcode examples project added for OSX
+* Documentation updated with platform-specific info for iOS/Linux/WinCE
+
+2.4.6 - 17/6/2010
+-----------------
+* Support for APEv2 tags, including binary
+	BASS_TAG_APE (BASS_ChannelGetTags type)
+	BASS_TAG_APE_BINARY (BASS_ChannelGetTags type)
+* Unicode/IDN URL support
+	BASS_StreamCreateURL
+* Decoding position retrieval
+	BASS_POS_DECODE (BASS_ChannelGetPosition flag)
+* Support for OGG 6/7.1 channel configs
+	BASS_StreamCreateFile/User/URL
+* Syncing upon attribute changes
+	BASS_SYNC_ATTRIB (BASS_ChannelSetSync type)
+* Support for setting syncs within mixtime SYNCPROCs
+	BASS_ChannelSetSync
+* Support for setting additional DSP/FX within DSPPROCs
+	BASS_ChannelSetDSP/FX
+* DC bias removal in FFT processing
+	BASS_DATA_FFT_REMOVEDC (BASS_ChannelGetData flag)
+* Fix for incorrect (2x) return value when getting FFT data from a 16-bit channel
+	BASS_ChannelGetData
+* Fix for incorrect (STOPPED instead of PAUSED) channel status following BASS_Pause
+	BASS_ChannelIsActive
+
+2.4.5 - 18/12/2009
+------------------
+* Support for little-endian AIFF files
+	BASS_StreamCreateFile/User/URL
+	BASS_SampleLoad
+* Support for 64-bit floating-point WAVE/AIFF files
+	BASS_StreamCreateFile/User/URL
+	BASS_SampleLoad
+* Input volume retrieval failure results in a reading of -1 instead of 1
+	BASS_RecordGetInput
+	RECTEST example updated
+* Input volume support on OSX
+	BASS_RecordSetInput
+	BASS_RecordGetInput
+	RECTEST example updated
+* Fix for deferred input settings on Vista
+	BASS_RecordSetInput
+* Windows MP3 codec given preference over other installed MP3 codecs (MP3-FREE version)
+	BASS_StreamCreateFile/User/URL
+	BASS_SampleLoad
+
+2.4.4 - 13/10/2009
+------------------
+* RIFF/BWF "radio traffic" tag retrieval
+	BASS_TAG_RIFF_CART (BASS_ChannelGetTags type)
+	TAG_CART structure
+* Support for ID3v2 tags in RIFF/WAVE/AIFF files ("ID3 " chunk)
+	BASS_TAG_ID3V2 (BASS_ChannelGetTags type)
+* Pushed fractional samples are refused rather than discarded
+	BASS_StreamPutData
+* DX8 effect emulation on OSX
+	BASS_FX_DX8_CHORUS/DISTORTION/ECHO/FLANGER/PARAMEQ/REVERB (BASS_ChannelSetFX types)
+	FXTEST example added
+* UTF-16 support on OSX
+	BASS_UNICODE (BASS_StreamCreateFile/SampleLoad/MusicLoad/PluginLoad flag)
+
+2.4.3 - 8/5/2009
+----------------
+* MOD order list retrieval
+	BASS_TAG_MUSIC_ORDERS (BASS_ChannelGetTags type)
+* Support for ID3v2 tags in RIFF/WAVE files ("id3 " chunk)
+	BASS_TAG_ID3V2 (BASS_ChannelGetTags type)
+* Improved position reporting precision on Vista
+	BASS_ChannelGetPosition
+* Length retrieval when streaming in blocks (BASS_STREAM_BLOCK)
+	BASS_ChannelGetLength
+* Support for CoreAudio codecs on OSX
+	BASS_StreamCreateFile/User
+	BASS_SampleLoad
+	BASS_TAG_CA_CODEC (BASS_ChannelGetTags type)
+	TAG_CA_CODEC structure
+* 3D algorithm option support on OSX
+	BASS_CONFIG_3DALGORITHM (BASS_SetConfig option)
+
+2.4.2 - 18/9/2008
+-----------------
+* RF64 support
+	BASS_StreamCreateFile/User
+* RIFF/BWF "Broadcast Audio Extension" tag retrieval
+	BASS_TAG_RIFF_BEXT (BASS_ChannelGetTags type)
+	TAG_BEXT structure
+* ID3v1 tag structure
+	TAG_ID3 structure
+* Multiple simultaneous recordings per device on Vista & OSX (as on XP)
+	BASS_RecordStart
+* DX8 effect parameter defaults updated/corrected in documentation
+
+2.4 - 2/4/2008
+--------------
+* "Push" streaming
+	STREAMPROC_PUSH (BASS_StreamCreate option)
+	BASS_StreamPutData
+	LIVEFX and MULTI examples updated
+* "Push" buffered file streaming
+	STREAMFILE_BUFFERPUSH (BASS_StreamCreateFileUser system)
+	BASS_StreamPutFileData
+* STREAMFILEPROC replaced by table of callbacks for each file operation
+	BASS_FILEPROCS (FILECLOSEPROC/FILELENPROC/FILEREADPROC/FILESEEKPROC)
+	STREAMFILEPROC *removed*
+* 64-bit file positioning
+	BASS_SampleLoad
+	BASS_MusicLoad
+	BASS_StreamCreateFile
+	BASS_StreamGetFilePosition
+* File buffer level retrieval
+	BASS_FILEPOS_BUFFER (BASS_StreamGetFilePosition mode)
+* Sinc interpolated MOD music mixing
+	BASS_MUSIC_SINCINTER (BASS_MusicLoad flag)
+* MO3 2.4 support
+	BASS_MusicLoad
+* MOD orders positioning incorporated into channel functions
+	BASS_ChannelGetLength
+	BASS_ChannelSetPosition
+	BASS_ChannelGetPosition
+	BASS_MusicGetOrderPosition *removed*
+	BASS_MusicGetOrders *removed*
+* Channel attribute functions consolidated
+	BASS_ChannelSetAttribute
+	BASS_ChannelGetAttribute
+	BASS_ChannelSlideAttribute
+	BASS_ChannelIsSliding
+	BASS_ChannelSetAttributes *removed*
+	BASS_ChannelGetAttributes *removed*
+	BASS_ChannelSlideAttributes *removed*
+	BASS_ChannelSetEAXMix *removed*
+	BASS_ChannelGetEAXMix *removed*
+	BASS_MusicSetAttribute *removed*
+	BASS_MusicGetAttribute *removed*
+* Floating-point volume and panning
+	BASS_SetVolume
+	BASS_GetVolume
+	BASS_RecordSetInput
+	BASS_RecordGetInput
+	BASS_ATTRIB_PAN/VOL (BASS_ChannelGet/Set/SlideAttribute options)
+	BASS_ATTRIB_MUSIC_VOL_CHAN/INST (BASS_ChannelGet/Set/SlideAttribute options)
+	BASS_SAMPLE volume/pan/outvol members
+	BASS_CONFIG_MAXVOL *removed*
+	BASSTEST and RECTEST examples updated
+* Output device volume control on Vista (as on other OS)
+	BASS_SetVolume
+	BASS_GetVolume
+* Multiple update threads
+	BASS_CONFIG_UPDATETHREADS (BASS_SetConfig option)
+	BASSTEST example updated
+* Global volume range increased to 10000
+	BASS_CONFIG_GVOL_SAMPLE/STREAM/MUSIC (BASS_SetConfig options)
+	BASSTEST example updated
+* Setting and retrieving of a sample's data
+	BASS_SampleSetData
+	BASS_SampleGetData
+	BASS_SampleCreate
+	BASS_SampleCreateDone *removed*
+* Channel flag setting mask
+	BASS_ChannelFlags
+	BASS_ChannelSetFlags *removed*
+	SPEAKERS example updated
+* 256 sample FFT
+	BASS_DATA_FFT256 (BASS_ChannelGetData flag)
+* Channel locking to prevent access by other threads
+	BASS_ChannelLock
+* Manual channel buffer updating
+	BASS_ChannelUpdate
+	BASS_ChannelPreBuf *removed*
+* Configurable manual update length
+	BASS_Update
+* Extended device information retrieval and detection of new/removed devices
+	BASS_GetDeviceInfo
+	BASS_RecordGetDeviceInfo
+	BASS_DEVICEINFO structure
+	BASS_GetDeviceDescription *removed*
+	BASS_RecordGetDeviceDescription *removed*
+	BASS_INFO driver member *removed*
+	BASS_RECORDINFO driver member *removed*
+	MULTI example updated
+* Default device change tracking on Windows (as on OSX)
+	BASS_Init
+	BASS_RecordInit
+* Speaker detection from Windows control panel
+	BASS_DEVICE_CPSPEAKERS (BASS_Init flag)
+* Channel automatically stopped & resumed for DX8 effects
+	BASS_ChannelSetFX
+	BASS_ChannelRemoveFX
+* "double" precision position conversion
+	BASS_ChannelBytes2Seconds
+	BASS_ChannelSeconds2Bytes
+* Separate config functions for pointers
+	BASS_SetConfigPtr
+	BASS_GetConfigPtr
+	BASS_CONFIG_NET_AGENT/PROXY (BASS_SetConfigPtr options)
+* Configurable file format verification length
+	BASS_CONFIG_VERIFY (BASS_SetConfig option)
+* Stream filename retrieval
+	BASS_CHANNELINFO file member
+* Channel sample retrieval
+	BASS_CHANNELINFO sample member
+* META syncs no longer receive metadata in the "data" parameter
+	BASS_SYNC_META (BASS_ChannelSetSync type)
+* Separate sync for OGG logical bitstream changes (instead of BASS_SYNC_META)
+	BASS_SYNC_OGG_CHANGE (BASS_ChannelSetSync type)
+	NETRADIO example updated (C version)
+* Message syncing removed (use PostMessage instead)
+	BASS_SYNC_MESSAGE (BASS_ChannelSetSync flag) *removed*
+* Data retrieval from stopped/paused channels
+	BASS_ChannelGetData
+* Callback "user" parameters changed to pointers
+	BASS_StreamCreate / STREAMPROC
+	BASS_StreamCreateFileUser
+	BASS_StreamCreateURL / DOWNLOADPROC
+	BASS_RecordStart / RECORDPROC
+	BASS_ChannelSetDSP / DSPPROC
+	BASS_ChannelSetSync / SYNCPROC
+
+2.3.0.3 - 30/7/2007
+-------------------
+* FX state resetting
+	BASS_FXReset
+* PLS/M3U playlist URL processing
+	BASS_CONFIG_NET_PLAYLIST (BASS_SetConfig option)
+	NETRADIO example updated
+* Internet stream connection status retrieval
+	BASS_FILEPOS_CONNECTED (BASS_StreamGetFilePosition mode)
+* Lyrics3v2 tags
+	BASS_TAG_LYRICS3 (BASS_ChannelGetTags type)
+* IT virtual channel configuration
+	BASS_CONFIG_MUSIC_VIRTUAL (BASS_SetConfig option)
+* Accurate speaker detection on Vista
+	BASS_INFO speakers member
+* Device output/input rate retrieval on Vista
+	BASS_INFO freq member
+	BASS_RECORDINFO freq member
+* Syncing upon position changes
+	BASS_SYNC_SETPOS (BASS_ChannelSetSync type)
+* Improved stall handling
+	BASS_SYNC_STALL
+* Invalid decoding channel flags produce an error instead of being ignored
+	BASS_StreamCreate/File/User/URL
+	BASS_MusicLoad
+
+2.3.0.2 - 22/1/2007
+-------------------
+* Retrieval of a sample's existing channel handles
+	BASS_SampleGetChannels
+* 8192 sample FFT
+	BASS_DATA_FFT8192 (BASS_ChannelGetData flag)
+* Adjustable recording buffer
+	BASS_CONFIG_REC_BUFFER (BASS_SetConfig option)
+* Stopping decoding channels before the end
+	BASS_ChannelStop
+* Sample channels created paused to prevent overriding before playback
+	BASS_SampleGetChannel
+* Separate "MP3-FREE" version using the OS's MP3 decoder
+	BASS_CONFIG_MP3_CODEC *removed*
+
+2.3.0.1 - 12/6/2006
+-------------------
+* Ability to move a channel to another device
+	BASS_ChannelSetDevice
+	MULTI example updated
+* Support for ID3v2.4 tags at end of file
+	BASS_TAG_ID3V2 (BASS_ChannelGetTags type)
+
+2.3 - 21/5/2006
+---------------
+* MOD message/instrument/sample text retrieval, merged with stream tag retrieval function
+	BASS_ChannelGetTags
+	BASS_TAG_MUSIC_NAME/MESSAGE/INST/SAMPLE (BASS_ChannelGetTags types)
+	BASS_MusicGetName *removed*
+	BASS_StreamGetTags *removed*
+* Plugin information retrieval
+	BASS_PluginGetInfo
+	BASS_PLUGININFO structure
+	BASS_PLUGINFORM structure
+	BASS_CHANNELINFO plugin member
+	PLUGINS example updated
+* RIFF/WAVE "INFO" tag retrieval
+	BASS_TAG_RIFF_INFO (BASS_StreamGetTags type)
+* More specific WAVE format information
+	BASS_CTYPE_STREAM_WAV_PCM/FLOAT (channel types)
+	BASS_CTYPE_STREAM_WAV (channel type flag)
+* Proxy server configuration
+	BASS_CONFIG_NET_PROXY (BASS_SetConfig option)
+	BASS_CONFIG_NET_NOPROXY *removed*
+	NETRADIO example updated
+* Passive FTP mode
+	BASS_CONFIG_NET_PASSIVE (BASS_SetConfig option)
+* Agent changes take immediate effect
+	BASS_CONFIG_NET_AGENT (BASS_SetConfig option)
+* Minimum time gap between creating new sample channels
+	BASS_SAMPLE mingap member
+	BASS_SampleGetChannel
+* Support for Unicode plugin filenames
+	BASS_PluginLoad
+* Device output/input rate retrieval (MacOSX only)
+	BASS_INFO freq member
+	BASS_RECORDINFO freq member
+* Extended version info (minor revision)
+	BASS_GetVersion
+* Unsupported codec error code
+	BASS_ERROR_CODEC
+* Optional use of the Windows MP3 codec
+	BASS_CONFIG_MP3_CODEC (BASS_SetConfig option)
+* 3D support for MacOSX
+	BASS_Set3DFactors
+	BASS_Get3DFactors
+	BASS_Set3DPosition
+	BASS_Get3DPosition
+	BASS_Apply3D
+	BASS_ChannelSet3DAttributes
+	BASS_ChannelGet3DAttributes
+	BASS_ChannelSet3DPosition
+	BASS_ChannelGet3DPosition
+	3DTEST example added (Win32 example also updated)
+* VB version of SYNTH example added
+
+2.2 - 2/10/2005
+---------------
+* Add-on plugin system
+	BASS_PluginLoad
+	BASS_PluginFree
+	BASS_StreamCreateFile/User/URL
+	BASS_SampleLoad
+	PLUGINS example added
+* MOD position & syncing in bytes
+	BASS_ChannelSetPosition
+	BASS_ChannelGetPosition
+	BASS_MusicGetOrderPosition added for orders position
+	BASS_SYNC_MUSICPOS added for orders syncing
+	MAKEMUSICPOS macro/define
+	CUSTLOOP example updated
+* Stream/MOD "length" functions combined (also works with samples), new MOD orders length function
+	BASS_ChannelGetLength
+	BASS_MusicGetOrders
+	BASS_StreamGetLength *removed*
+	BASS_MusicGetLength *removed*
+* Support for AIFF files
+	BASS_StreamCreateFile/User/URL
+	BASS_SampleLoad
+* Support for 24 and 32-bit (integer) WAV files
+	BASS_StreamCreateFile/User/URL
+	BASS_SampleLoad
+* WAV files are no longer converted to the "device" resolution
+	BASS_StreamCreateFile/User/URL
+* Recording master control
+	BASS_RecordGetInput
+	BASS_RecordSetInput
+* Adjustable pre-buffering
+	BASS_ChannelPreBuf
+* Floating-point data retrieval
+	BASS_DATA_FLOAT (BASS_ChannelGetData flag)
+* Support for floating-point samples
+	BASS_SampleLoad
+	BASS_SampleCreate
+* Multi-channel samples
+	BASS_SampleLoad/Create
+	BASS_SAMPLE chans member
+* Sample lengths given in bytes
+	BASS_SampleCreate
+	BASS_SAMPLE length member
+* MOD music 8-bit resolution option
+	BASS_MusicLoad
+* OGG vendor tag retrieval
+	BASS_TAG_VENDOR (BASS_StreamGetTags type)
+* Configurable "User-Agent" header for internet streams
+	BASS_CONFIG_NET_AGENT (BASS_SetConfig option)
+* Shoutcast metadata is now requested automatically
+	BASS_STREAM_META flag *removed*
+* Download callbacks receive all data from start of file/stream (including any non-audio data)
+	DOWNLOADPROC
+* Length when streaming in blocks is unavailable (BASS_ERROR_NOTAVAIL, not just 0)
+	BASS_ChannelGetLength
+* Support for growing custom file streams
+	BASS_FILE_LEN (STREAMFILEPROC action)
+* Query file action removed
+	BASS_FILE_QUERY *removed*
+* Recording channel syncing
+	BASS_ChannelSetSync
+* Info structure "size" members removed
+	BASS_INFO structure
+	BASS_RECORDINFO structure
+* Little bit of flag reshuffling
+	BASS_MP3_SETPOS renamed to BASS_STREAM_PRESCAN
+	BASS_MUSIC_CALCLEN value changed and renamed to BASS_MUSIC_PRESCAN
+	BASS_MUSIC_POSRESET value changed
+* Add-on API enhancements
+* MacOSX port introduced
+
+2.1 - 28/11/2004
+----------------
+* Improved "mixtime" sync system, allowing custom looping
+	SYNCPROC
+	CUSTLOOP example added
+* FX can now be in the DSP chain, so can be prioritized and applied in floating-point
+	BASS_ChannelSetFX
+	BASS_CONFIG_FLOATDSP (BASS_SetConfig option)
+* Ability to set channel flags (eg. looping) independent of playback
+	BASS_ChannelSetFlags
+	SPEAKERS example updated
+* Stream/MOD "play" and channel "resume" functions combined
+	BASS_ChannelPlay
+	BASS_StreamPlay *removed*
+	BASS_MusicPlay *removed*
+	BASS_MusicPlayEx *removed*
+	BASS_ChannelResume *removed*
+* Stream/MOD pre-buffering functions combined
+	BASS_ChannelPreBuf
+	BASS_StreamPreBuf *removed*
+	BASS_MusicPreBuf *removed*
+* MOD attribute functions combined, with added BPM/speed/globalvolume options
+	BASS_MusicSetAttribute
+	BASS_MusicGetAttribute
+	BASS_MUSIC_ATTRIB_AMPLIFY
+	BASS_MUSIC_ATTRIB_PANSEP
+	BASS_MUSIC_ATTRIB_PSCALER
+	BASS_MUSIC_ATTRIB_BPM
+	BASS_MUSIC_ATTRIB_SPEED
+	BASS_MUSIC_ATTRIB_VOL_GLOBAL
+	BASS_MUSIC_ATTRIB_VOL_CHAN
+	BASS_MUSIC_ATTRIB_VOL_INST
+	BASS_MusicSetAmplify *removed*
+	BASS_MusicSetPanSep *removed*
+	BASS_MusicSetPositionScaler *removed*
+	BASS_MusicSetVolume *removed*
+	BASS_MusicGetVolume *removed*
+* Flag to reset bpm/etc as well as notes when seeking in MOD musics
+	BASS_MUSIC_POSRESETEX (BASS_MusicLoad & BASS_ChannelSetFlags flag)
+* More flexible and concise sample channel creation system
+	BASS_SampleGetChannel
+	BASS_SamplePlay *removed*
+	BASS_SamplePlayEx *removed*
+	BASS_SamplePlay3D *removed*
+	BASS_SamplePlay3DEx *removed*
+* Support for up to 30 speakers
+	BASS_SPEAKER_N macro/define
+* More precise level measurement
+	BASS_ChannelGetLevel
+* Level can now be retrieved from decoding channels
+	BASS_ChannelGetLevel
+* Retrieval of a sample/channel's original sample resolution
+	BASS_SAMPLE origres member
+	BASS_CHANNELINFO origres member
+* Support for streaming WAV files in "blocks"
+	BASS_StreamCreateURL
+	BASS_StreamCreateFileUser
+* Status info (HTTP/ICY tags) available during connection to server
+	BASS_STREAM_STATUS (BASS_StreamCreateURL flag)
+	DOWNLOADPROC
+	NETRADIO example updated (Delphi version also added)
+* Adjustable internet stream pre-buffering
+	BASS_CONFIG_NET_PREBUF (BASS_SetConfig option)
+* Option to bypass proxy server
+	BASS_CONFIG_NET_NOPROXY (BASS_SetConfig option)
+* Option whether to allow channels to be played after BASS_Pause
+	BASS_CONFIG_PAUSE_NOPLAY (BASS_SetConfig option)
+* Recording channel count now a separate parameter
+	BASS_RecordStart (chans parameter)
+* Synchronizer for when a channel is freed
+	BASS_SYNC_FREE (BASS_ChannelSetSync type)
+* Data start file position retrieval
+	BASS_FILEPOS_START (BASS_StreamGetFilePosition mode)
+* Performance improvements
+	MP2 decoding ~20% faster
+	MP3/MP1 decoding & FFT processing all up to 10% faster
+	OGG decoding ~3% faster
+* C/C++ examples reorganised, with makefiles & VC++ projects
+* Add-on API enhancements
+* More DLL shrinkage :)
+
+2.0 - 31/10/2003
+----------------
+* Multiple output device support
+	BASS_Init (device number changes)
+	BASS_SetDevice
+	BASS_GetDevice
+	BASS_ChannelGetDevice
+	MULTI example updated (VB version also added)
+* Multiple recording device support
+	BASS_RecordSetDevice
+	BASS_RecordGetDevice
+	BASS_RecordStart
+	BASS_ChannelGetDevice
+	HRECORD handle
+	RECORDPROC (handle parameter)
+* Recording with DSP/FX
+	BASS_ChannelSetDSP
+	BASS_ChannelSetFX
+* Recording position retrieval
+	BASS_ChannelGetPosition
+* Start recording paused
+	BASS_RECORD_PAUSE (BASS_RecordStart flag)
+* Multi-channel streams, inc. support for multichannel OGG & WAV files
+	BASS_StreamCreate
+	BASS_StreamCreateFile/User/URL
+* FFT for individual channels, inc. multi-channel streams
+	BASS_DATA_FFT_INDIVIDUAL (BASS_ChannelGetData flag)
+	BASS_DATA_FFT512S/1024S/2048S/4096S *removed*
+* DSP prioritizing
+	BASS_ChannelSetDSP
+	DSPTEST example updated
+* Seeking in internet streamed files
+	BASS_ChannelSetPosition
+* Enhanced custom file stream systems
+	BASS_StreamCreateFileUser
+	BASS_FILE_SEEK (STREAMFILEPROC action)
+	BASS_STREAM_FILEPROC flag *removed*
+* Enhanced custom stream system with automatic stalling/resuming
+	STREAMPROC
+	BASS_STREAMPROC_END (STREAMPROC flag)
+* Synchronizer for stalled/resumed playback 
+	BASS_SYNC_STALL (BASS_ChannelSetSync type)
+* Synchronizer for completed download
+	BASS_SYNC_DOWNLOAD (BASS_ChannelSetSync type)
+* End sync support for custom streams
+	BASS_SYNC_END (BASS_ChannelSetSync type)
+* Synchronizer support for decoding channels
+	BASS_ChannelSetSync
+* Unified configuration function
+	BASS_SetConfig
+	BASS_GetConfig
+	BASS_SetBufferLength *removed*
+	BASS_SetNetConfig *removed*
+	BASS_SetGlobalVolumes *removed*
+	BASS_GetGlobalVolumes *removed*
+	BASS_SetLogCurves *removed*
+	BASS_Set3DAlgorithm *removed*
+	BASS_DEVICE_FLOATDSP flag *removed*
+* Internet stream saving to disk replaced by more flexible callback
+	BASS_StreamCreateURL
+	DOWNLOADPROC
+	VB NETRADIO example updated
+* Buffer length retrieval when "streaming in blocks"
+	BASS_FILEPOS_END (BASS_StreamGetFilePosition mode)
+* Individual sample rate setting for MOD musics
+	BASS_MusicLoad
+* Channel type and default sample rate retrieval
+	BASS_ChannelGetInfo (replaces BASS_ChannelGetFlags)
+	BASS_CHANNELINFO
+* MOD music flag retrieval
+	BASS_CHANNELINFO flags member
+* Adjustable instrument volumes in MOD musics
+	BASS_MusicSetVolume (replaces BASS_MusicSetChannelVol)
+	BASS_MusicGetVolume (replaces BASS_MusicGetChannelVol)
+* Automatically free a MOD music when it stops or ends
+	BASS_MUSIC_AUTOFREE (BASS_MusicLoad flag)
+* Class GUID added to initialization parameters
+	BASS_Init
+	BASS_SetCLSID *removed*
+* Update period adjustable at any time
+	BASS_CONFIG_UPDATEPERIOD (BASS_SetConfig option)
+	BASS_DEVICE_NOTHREAD flag *removed*
+* Customizable maximum volume setting
+	BASS_CONFIG_MAXVOL (BASS_SetConfig option)
+	BASS_DEVICE_VOL1000 flag *removed*
+* Device volume is now always left as it is during init/freeing
+	BASS_DEVICE_LEAVEVOL flag *removed*
+* Device driver name retrieval
+	BASS_INFO driver member
+	BASS_RECORDINFO driver member
+* Error codes are local to the current thread
+	BASS_ErrorGetCode
+* Performance improvements
+	MP2 decoding 15-20% faster
+	MP3 decoding ~5% faster
+* Built-in CD functions removed (replaced in BASSCD)
+	BASS_CDDoor *removed*
+	BASS_CDFree *removed*
+	BASS_CDGetID *removed*
+	BASS_CDGetTrackLength *removed*
+	BASS_CDGetTracks *removed*
+	BASS_CDInDrive *removed*
+	BASS_CDInit *removed*
+	BASS_CDPlay *removed*
+* Force channels to use software mixing
+	BASS_SAMPLE_SOFTWARE (BASS_StreamCreate/File/User/URL & BASS_MusicLoad flag)
+* Support for high-pass filter and forward/reverse (S9E/F) IT/MPT effects
+* BASS_MUSIC flags rearranged to mirror BASS_SAMPLE/STREAM counterparts
+* Output automatically started during initialization
+* BASS_ChannelGetData once again accepts any "length" param
+* All function comments have been removed from the API headers to avoid
+  outdated/incorrect information - the documentation should be used.
+* TMT Pascal API removed from main distribution - now available on the website
+* A few more 'K' knocked off the DLL size :)
+
+1.8a - 18/6/2003
+----------------
+* Tweaks 'n' fixes, including...
+	Fixed seeking bug on 32-bit OGG streams
+	Fixed seeking on a decoding channel after it has reached the end
+	Low FPU precision (eg. when using Direct3D) issue addressed
+	Improved speakers (BASS_INFO) detection
+	BASS_ChannelSeconds2Bytes return value is rounded down to nearest sample
+	BASS_ChannelGetData "length" param must equal a whole number of samples
+	Slide syncs are triggered by "-2" volume slides on "autofree" streams
+* Support for Unicode filenames
+	BASS_UNICODE (BASS_SampleLoad/BASS_StreamCreateFile/BASS_MusicLoad flag)
+* 4096 sample FFT
+	BASS_DATA_FFT4096/S (BASS_ChannelGetData flags)
+* Another 'K' knocked off the DLL size
+
+1.8 - 9/3/2003
+--------------
+* 32-bit floating-point channels
+	BASS_SAMPLE_FLOAT (BASS_StreamCreate/File/URL flag)
+	BASS_MUSIC_FLOAT (BASS_MusicLoad flag)
+	BASS_SAMPLE_FLOAT (BASS_RecordStart flag)
+	BASS_DEVICE_FLOATDSP (BASS_Init flag)
+	DSPTEST example updated
+* Support for 32-bit floating-point (type 3) WAV files
+	BASS_StreamCreateFile/URL
+	BASS_SampleLoad
+* Channel speaker assignment
+	BASS_SPEAKER_FRONT (BASS_MusicLoad/BASS_StreamCreate/File/URL flag)
+	BASS_SPEAKER_REAR                       "
+	BASS_SPEAKER_CENLFE                     "
+	BASS_SPEAKER_REAR2                      "
+	BASS_SPEAKER_FRONTLEFT                  "
+	BASS_SPEAKER_FRONTRIGHT                 "
+	BASS_SPEAKER_REARLEFT                   "
+	BASS_SPEAKER_REARRIGHT                  "
+	BASS_SPEAKER_CENTER                     "
+	BASS_SPEAKER_LFE                        "
+	BASS_SPEAKER_REAR2LEFT                  "
+	BASS_SPEAKER_REAR2RIGHT                 "
+	BASS_INFO speakers member
+	BASS_DEVICE_SPEAKERS (BASS_Init flag)
+	4SPEAKER example replaced by SPEAKERS example
+* Recording input type retrieval
+	BASS_INPUT_TYPE_xxx (BASS_RecordGetInput)
+	RECTEST example updated
+* Non-interpolated MOD mixing
+	BASS_MUSIC_NONINTER (BASS_MusicLoad/PlayEx flag)
+* Performance improvements
+	FFT up to 100% faster!
+	MP3(MPEG2/2.5) decoding up to 60% faster
+	MMX mixers 5-10% faster
+	MP3(MPEG1)/MP2/MP1/OGG decoding all ~5% faster
+* Optional disabling of FFT windowing
+	BASS_DATA_FFT_NOWINDOW (BASS_ChannelGetData flag)
+* BASS_ERROR_FILEFORM - error code to distinguish between file and sample format
+	BASS_MusicLoad
+	BASS_SampleLoad
+	BASS_StreamCreate/File/URL
+* BASS_StreamGetFilePosition mode flags added
+	BASS_FILEPOS_DECODE/DOWNLOAD/END
+* DirectSound 9 detection
+	BASS_INFO dsver member
+* Initialization flags retrieval
+	BASS_INFO initflags member
+* Half-rate MP3 playback option removed
+	BASS_MP3_HALFRATE flag *removed*
+* New internal "plugin" system - BASSWMA is further integrated as a result
+* Improved documentation - integrated with BASSWMA, search option added
+* VB version of DSPTEST example added
+* Delphi RECORDTEST example added
+* Guess what... reduced DLL size again :)
+
+1.7 - 27/10/2002
+----------------
+* New alternative DX8 (DMO) effects implementation
+	BASS_StreamCreate/File/URL
+	BASS_MusicLoad
+	BASS_ChannelSetFX
+	SYNTH example updated
+* User file streaming
+	BASS_STREAM_FILEPROC (BASS_StreamCreate flag)
+	STREAMFILEPROC
+* DSP & FX support for decoding channels
+	BASS_ChannelSetDSP
+	BASS_ChannelSetFX
+* Support for DX8 (DMO) effects in IT/XM/MO3 files
+	BASS_MusicLoad
+* Support for chained OGG streaming (and syncing)
+	BASS_StreamCreateURL
+	BASS_SYNC_META (BASS_ChannelSetSync type)
+* Attribute (volume/frequency/pan) sliding
+	BASS_ChannelSlideAttributes
+	BASS_ChannelIsSliding
+	BASS_SYNC_SLIDE (BASS_ChannelSetSync type)
+* Recording without a callback function
+	BASS_RecordStart
+	LIVEFX example added
+* Query a channel's buffered data
+	BASS_DATA_AVAILABLE (BASS_ChannelGetData flag)
+* Discard data from the recording buffer
+	BASS_ChannelGetData
+* Adjustable internet stream config (timeout/buffer lengths)
+	BASS_SetNetConfig
+* Recommended minimum buffer length
+	BASS_INFO minbuf member
+* MOD music flags adjustment without changing playback position
+	BASS_MusicPlayEx
+	PLAYER (MASM) example updated
+* More functions are now useable in MOD music "mixtime" syncs
+	SYNCPROC
+	BASS_ChannelSetPosition
+	BASS_MusicPlayEx
+	BASS_MusicSetAmplify
+	BASS_MusicSetPanSep
+* Maximum buffer length increased to 5 seconds
+	BASS_SetBufferLength
+* Support for extended filter range in IT files
+	BASS_MusicLoad
+* Speedier MOD music file verification
+	BASS_MusicLoad
+* Delphi 3DTEST example fixed
+* Magically reduced DLL size again :)
+
+1.6a - 25/8/2002
+----------------
+* OGG support updated to 1.0
+* Stereo FFT
+	BASS_DATA_FFT512S/1024S/2048S (BASS_ChannelGetData flags)
+* Support for "Invert Loop" (EFx) MOD effect
+* Reduced DLL size
+* New Delphi examples
+	WRITEWAV - WAVE writer example
+	SAMPLEVIS - Visualisation example
+
+1.6 - 13/6/2002
+---------------
+* 64-bit stream lengths and positions
+	BASS_StreamGetLength
+	BASS_ChannelBytes2Seconds
+	BASS_ChannelSeconds2Bytes
+	BASS_ChannelGetPosition
+	BASS_ChannelSetPosition
+	BASS_ChannelSetSync
+* Recording input selection
+	BASS_RECORDINFO inputs/singlein members
+	BASS_RecordGetInputName
+	BASS_RecordGetInput
+	BASS_RecordSetInput
+* Adjustable recording update period
+	BASS_RecordStart
+* Load OGG files as samples
+	BASS_SampleLoad
+* CD drive door opening & closing
+	BASS_CDDoor
+* CDDB2 ID retrieval
+	BASS_CDID_CDDB2 (BASS_CDGetID flag)
+* Streaming beyond initial file length
+	BASS_StreamCreateFile
+* Recording position bytes<->seconds translation
+	BASS_ChannelBytes2Seconds
+	BASS_ChannelSeconds2Bytes
+* Improved multi-threaded support (play from any thread)
+	BASS_MusicPlay/Ex
+	BASS_SamplePlay/3D/Ex
+	BASS_StreamPlay
+	BASS_DEVICE_NOSYNC flag *removed*
+* Paused channel status
+	BASS_ACTIVE_PAUSED (BASS_ChannelIsActive)
+* Integrated WMA stream freeing
+	BASS_StreamFree
+	BASS_Free
+* Pin-point accurate OGG seeking without BASS_MP3_SETPOS flag
+* Win2k DS buffer bug fix
+
+1.5a - 14/4/2002
+----------------
+* NT4 fix (also enables "nosound" device without DX installed)
+	BASS_ERROR_DX error code
+* MOD music loading without the samples
+	BASS_MUSIC_NOSAMPLE (BASS_MusicLoad flag)
+* Custom decoding channels
+	BASS_STREAM_DECODE (BASS_StreamCreate flag)
+* 5 second HTTP connection timeout
+	BASS_ERROR_TIMEOUT (BASS_StreamCreateURL error code)
+
+1.5 - 31/3/2002
+---------------
+* Improved performance
+	MMX mixers lot faster (over 50% faster in some cases!)
+	OGG decoding 15-20% faster
+	MP3 decoding 5-10% faster
+* Recording
+	BASS_RecordGetDeviceDescription
+	BASS_RecordInit
+	BASS_RecordFree
+	BASS_RecordGetInfo
+	BASS_RecordStart
+* OGG support built-in (OGG/VORBIS DLLs not required)
+	BASS_DEVICE_OGG flag *removed*
+* MOD music seeking in seconds
+	BASS_MusicPlayEx
+	BASS_ChannelSetPosition
+* Shoutcast metadata retrieval
+	BASS_STREAM_META (BASS_StreamCreateURL flag)
+	BASS_TAG_META (BASS_StreamGetTags type)
+	BASS_SYNC_META (BASS_ChannelSetSync type)
+* 1000 volume levels
+	BASS_DEVICE_VOL1000 (BASS_Init/CDInit flag)
+* CDDB ID retrieval
+	BASS_CDID_CDDB (BASS_CDGetID flag)
+* Leave the CD volume as it is during init/closing
+	BASS_DEVICE_LEAVEVOL (BASS_CDInit flag)
+* FFT enabled on decoding channels
+	BASS_ChannelGetData
+* Left level duplicated on right for mono channels
+	BASS_ChannelGetLevel
+* Improved MPEG length estimation without BASS_MP3_SETPOS flag
+	BASS_StreamGetLength
+* Support for Modplug/ADPCM compressed files
+	BASS_MusicLoad
+* Device description function parameter change
+	BASS_GetDeviceDescription
+* MASM API
+
+1.4 - 30/1/2002
+---------------
+* Channel decoding without playback
+	BASS_MUSIC_DECODE (BASS_MusicLoad flag)
+	BASS_STREAM_DECODE (BASS_StreamCreateFile/URL flag)
+	BASS_ChannelGetData
+* Windows message sync callbacks
+	BASS_SYNC_MESSAGE (BASS_ChannelSetSync flag)
+* Adjustable channel volumes in MOD musics
+	BASS_MusicSetChannelVol
+	BASS_MusicGetChannelVol
+* Customizable DirectSound initialization object
+	BASS_SetCLSID
+* Retrieve HMUSIC/HSTREAM/HCHANNEL IDirectSoundBuffer interfaces
+	BASS_GetDSoundObject
+* A3D functions removed (use BASS_SetCLSID/BASS_GetDSoundObject to access A3D)
+	BASS_DEVICE_A3D (BASS_Init flag)
+	BASS_SetA3DResManager
+	BASS_GetA3DResManager
+	BASS_SetA3DHFAbsorbtion
+	BASS_GetA3DHFAbsorbtion
+* Callback functions now work in VB6
+	DSPPROC
+	STREAMPROC
+	SYNCPROC
+* Improved PCM WAVE streaming performance
+	BASS_StreamCreateFile
+	BASS_StreamCreateURL
+* OGG modules updated to RC3
+* Stereo sample support in MO3 format
+* MO3 encoder now distributed separately from BASS
+
+1.3 - 17/11/2001
+----------------
+* Manual buffer updating
+	BASS_DEVICE_NOTHREAD (BASS_Init flag)
+	BASS_Update
+* Adjustable buffer update period (allows small buffer sizes)
+	BASS_Init
+* Output device latency retrieval
+	BASS_INFO latency member
+* MPEG/OGG seeking without BASS_MP3_SETPOS flag
+	BASS_ChannelSetPosition
+* Internet file streaming from offsets
+	BASS_StreamCreateURL
+* File stream tag/comment retrieval (ID3/ID3v2/OGG/HTTP/ICY tags)
+	BASS_StreamGetTags
+* Byte<->time position translation
+	BASS_ChannelBytes2Seconds
+	BASS_ChannelSeconds2Bytes
+* UMX (Unreal/Tournament music package) format support
+	BASS_MusicLoad
+* S3M/IT sync fx changed to S2x (S0x conflicted with S00)
+	BASS_SYNC_MUSICFX
+* Stereo sample support in IT/XM/S3M formats
+* MO3: OGG compression supported
+
+1.2 - 25/9/2001
+---------------
+* OGG (Ogg Vorbis) stream support
+	BASS_DEVICE_OGG (BASS_Init flag)
+	BASS_StreamCreateFile
+	BASS_StreamCreateURL
+* Channel linking (start/stop/pause/resume channels together)
+	BASS_ChannelSetLink
+	BASS_ChannelRemoveLink
+* MOD music playback length calculation
+	BASS_MUSIC_CALCLEN (BASS_MusicLoad flag)
+	BASS_MusicGetLength
+* Pre-buffering
+	BASS_MusicPreBuf
+	BASS_StreamPreBuf
+* Samples with single simultaneous playbacks have same HSAMPLE/HCHANNEL handle
+	BASS_SamplePlay/Ex
+* Stopping a custom stream flushes its buffer contents
+	BASS_ChannelStop
+
+1.1a - 31/8/2001
+----------------
+* NT4 bug fixed
+* XM Wxx effect syncing
+	BASS_SYNC_MUSICFX
+* MP3/2/1 rewinding without BASS_MP3_SETPOS
+	BASS_ChannelSetPosition
+
+1.1 - 11/8/2001
+---------------
+* DX8 (DMO) effects
+	BASS_SAMPLE_FX (BASS_StreamCreate/File/URL flag)
+	BASS_MUSIC_FX (BASS_MusicLoad flag)
+	BASS_ChannelSetFX
+	BASS_ChannelRemoveFX
+	BASS_FXSetParameters
+	BASS_FXGetParameters
+	BASS_FXCHORUS structure
+	BASS_FXCOMPRESSOR structure
+	BASS_FXDISTORTION structure
+	BASS_FXECHO structure
+	BASS_FXFLANGER structure
+	BASS_FXGARGLE structure
+	BASS_FXI3DL2REVERB structure
+	BASS_FXPARAMEQ structure
+	BASS_FXREVERB structure
+* Internet file streaming in blocks (inc. Shoutcast/Icecast stream support)
+	BASS_STREAM_BLOCK (BASS_StreamCreateURL flag)
+* 512/1024/2048 sample FFT
+	BASS_DATA_FFT512/1024/2048 (BASS_ChannelGetData flags)
+* CD identification
+	BASS_CDGetID
+* Improved DX version detection
+	BASS_INFO dsver member
+
+1.0 - 20/6/2001
+---------------
+* Load MP3/MP2/MP1 files as samples
+	BASS_SampleLoad
+* Internet file streaming from FTP servers
+	BASS_StreamCreateURL
+* Save a local copy of internet file streams
+	BASS_StreamCreateURL
+* Sample accurate file stream seeking
+	BASS_ChannelSetPosition
+	BASS_StreamGetBlockLength *removed*
+* Stream position synchronizer
+	BASS_SYNC_POS
+* Increased synchronizer precision
+* Improved MPEG file detection and error detection
+* Stop MOD musics on a backwards jump effect
+	BASS_MUSIC_STOPBACK (BASS_MusicLoad/PlayEx flag)
+* Leave the volume as it is during closing (as well as initialization)
+	BASS_DEVICE_LEAVEVOL (BASS_Init flag)
+* Optional automatic use of foreground window handle during initialization
+	BASS_Init
+* Reduced DLL size
+* VB API fixes
+
+0.9 - 18/4/2001
+---------------
+* Internet file streaming
+	BASS_StreamCreateURL
+* MP1 & MP2 (MPEG layer 1 & 2) support
+	BASS_StreamCreateFile/URL
+* MPEG 2.5 support (12000/11025/8000hz sample rates)
+	BASS_StreamCreateFile/URL
+* Decoding/download/end file stream position retrieval
+	BASS_StreamGetFilePosition
+* XMPlay surround sound for MOD musics
+	BASS_MUSIC_SURROUND (BASS_MusicLoad/PlayEx flag)
+	BASS_MUSIC_SURROUND2 (BASS_MusicLoad/PlayEx flag)
+* Restrict the download rate of internet file streams
+	BASS_STREAM_RESTRATE (BASS_StreamCreateURL flag)
+* Check if an internet file stream is stalled
+	BASS_ChannelIsActive
+* Automatically free a stream when it stops or ends
+	BASS_STREAM_AUTOFREE (BASS_StreamCreate/File/URL flag)
+* Leave the volume as it is during initialization
+	BASS_DEVICE_LEAVEVOL (BASS_Init flag)
+* Number of CD tracks retrieval
+	BASS_CDGetTracks
+* CD track length retrieval
+	BASS_CDGetTrackLength
+* Exact stream length set after whole file is streamed
+	BASS_StreamGetLength
+* TMT Pascal API and samples
+* Dynamic-loading Delphi API
+
+0.8a - 28/2/2000
+----------------
+* Updated Delphi API and samples
+
+0.8 - 24/1/2000
+---------------
+* Improved MP3 performance on P2/K6 and above CPUs
+* User DSP functions on streams and MOD musics
+	BASS_ChannelSetDSP
+	BASS_ChannelRemoveDSP
+* DX7 voice allocation & management
+	BASS_SAMPLE_VAM (BASS_SampleLoad/Create flag)
+	BASS_VAM_xxx flags
+	BASS_SAMPLE vam/priority members
+* DX7 software 3D algorithm selection
+	BASS_Set3DAlgorithm
+* DirectSound interface retrieval
+	BASS_GetDSoundObject
+* Log/linear volume & panning curves
+	BASS_SetLogCurves
+* User data passed to callback functions
+	STREAMPROC - BASS_StreamCreate
+	SYNCPROC - BASS_ChannelSetSync
+* New synchronizer
+	BASS_SYNC_MUSICFX
+* New synchronizer flag
+	BASS_SYNC_MIXTIME
+* Disable synchronizers option - saves a little CPU time
+	BASS_DEVICE_NOSYNC (BASS_Init flag)
+* Hi-res floating-point CPU usage monitoring
+	BASS_GetCPU
+* Wait for playback to start when playing a CD
+	BASS_CDPlay
+* DirectSound (dsound.dll) version retrieval
+	BASS_INFO dsver member
+* Removed volume sliding functions (they were fairly pointless)
+	BASS_SlideVolume
+	BASS_IsSliding
+* MO3: read/write encoder settings
+* MO3: remove inst/samp/message texts now optional
+* MO3: LAME encoder settings
+
+0.7 - 3/10/1999
+---------------
+* MO3 (MP3 compressed MODs)
+* A3D functions
+	BASS_DEVICE_A3D (BASS_Init flag)
+	BASS_INFO a3d member
+	BASS_SetA3DResManager
+	BASS_GetA3DResManager
+	BASS_SetA3DHFAbsorbtion
+	BASS_GetA3DHFAbsorbtion
+* Music/stream immediate sample data retrieval
+	BASS_ChannelGetData
+* File stream (WAV/MP3) length retrieval
+	BASS_StreamGetLength
+	BASS_StreamGetBlockLength
+* File stream seeking
+	BASS_ChannelSetPosition
+* Mono MP3 option (lower CPU usage)
+	BASS_StreamCreateFile
+* Music length retrieval
+	BASS_MusicGetLength
+* Music name retrieval
+	BASS_MusicGetName
+* Stop notes when moving MOD music position
+	BASS_MUSIC_POSRESET (BASS_MusicLoad/BASS_MusicPlayEx flag)
+* BASS_ERROR_FREQ - invalid sample rate error code
+	BASS_SampleCreate
+	BASS_SamplePlayEx
+	BASS_SamplePlay3DEx
+	BASS_StreamCreate
+	BASS_ChannelSetAttributes
+* Delphi and VB APIs
+
+0.6a - 26/7/1999
+----------------
+* Half rate MP3 option (lower CPU usage)
+	BASS_MP3_HALFRATE
+* Loading/streaming from file offsets
+	BASS_MusicLoad
+	BASS_SampleLoad
+	BASS_StreamCreateFile
+* Global music/sample/stream volume levels
+	BASS_SetGlobalVolumes
+	BASS_GetGlobalVolumes
+* Other new function
+	BASS_SampleStop
+* New synchronizer
+	BASS_SYNC_END
+* New sample overrider
+	BASS_SAMPLE_OVER_DIST
+* LoadLibrary/GetProcAddress instructions and example
+
+0.5 - 4/7/1999
+--------------
+* Documentation!
+* File streaming (MP3 and WAV)
+	BASS_StreamCreateFile
+* Custom generated samples
+	BASS_SampleCreate
+	BASS_SampleCreateDone
+* Other new function
+	BASS_MusicSetPositionScaler
+* Renamed function
+	BASS_ChannelClearSync -> BASS_ChannelRemoveSync
+* Alterations made to
+	BASS_ChannelGetPosition
+	BASS_SampleLoad
+	BASS_StreamPlay
+
+0.4 - 30/3/1999
+---------------
+* Compressed WAV samples support (using audio CODECs)
+* Updated CD volume handling - now works with SB Live
+* More linear channel volume/pan scales (were slightly off before)
+* "No sound" device option
+* 3D sound functions
+	BASS_Set3DFactors
+	BASS_Get3DFactors
+	BASS_Set3DPosition
+	BASS_Get3DPosition
+	BASS_Apply3D
+	BASS_SamplePlay3D
+	BASS_SamplePlay3DEx
+	BASS_ChannelSet3DAttributes
+	BASS_ChannelGet3DAttributes
+	BASS_ChannelSet3DPosition
+	BASS_ChannelGet3DPosition
+* EAX functions
+	BASS_SetEAXParameters
+	BASS_GetEAXParameters
+	BASS_ChannelSetEAXMix
+	BASS_ChannelGetEAXMix
+* Other new functions
+	BASS_GetDeviceDescription
+	BASS_SetBufferLen
+	BASS_ChannelGetFlags
+	BASS_ChannelPause
+	BASS_ChannelResume
+	BASS_ChannelSetPosition
+* Replaced function
+	BASS_CDResume -> BASS_ChannelResume
+* Alterations made to
+	BASS_Init
+	BASS_CDInit
+	BASS_SampleLoad
+	BASS_StreamPlay
+	BASS_INFO structure
+	BASS_SAMPLE structure
+	BASS_DEVICE_xxx flags
+	BASS_SAMPLE_xxx flags
+
+0.3 - 8/3/1999
+--------------
+* Synchronization functions
+	BASS_ChannelSetSync
+	BASS_ChannelClearSync
+* Other new functions
+	BASS_GetVersion
+	BASS_ChannelGetPosition
+	BASS_ChannelGetLevel
+	BASS_ChannelGetAttributes
+	BASS_ChannelSetAttributes
+* Replaced functions
+	BASS_MusicStop -> BASS_ChannelStop
+	BASS_MusicSetVolume -> BASS_ChannelSetAttributes
+	BASS_CDStop -> BASS_ChannelStop
+	BASS_CDSetVolume -> BASS_ChannelSetAttributes
+	BASS_CDGetVolume -> BASS_ChannelGetAttributes
+	BASS_ChannelUpdate -> BASS_ChannelSetAttributes
+* Alterations made to
+	BASS_MusicPlayEx
+	BASS_StreamPlay
+	BASS_INFO structure
+
+0.2 - 28/2/1999
+---------------
+* First public release
+
+
+Bug reports, Suggestions, Comments, Enquiries, etc
+==================================================
+If you have any of the aforementioned please visit the BASS forum at the
+website. If you can't find an answer there, you can also email:
+
+	bass@un4seen.com
+
+
+===== BASSALAC-LICENSE.txt =====
+BASSALAC 2.4
+Copyright (c) 2016-2024 Un4seen Developments Ltd. All rights reserved.
+
+
+BASSALAC is an extension to the BASS audio library, enabling the playing of
+ALAC (Apple Lossless Audio Codec) encoded files.
+
+NOTE: The ALAC format is supported as standard by BASS via the OS's codecs on
+      macOS and iOS, and also on Windows 10.
+
+
+Requirements
+============
+BASS 2.4 is required.
+
+
+Using BASSALAC
+==============
+The plugin system (see BASS_PluginLoad) can be used to add ALAC support to the
+standard BASS stream (and sample) creation functions. Dedicated ALAC stream
+creation functions are also provided by BASSALAC.
+
+The usage information in the BASS.TXT file (from the BASS package) is also
+applicable to BASSALAC and other add-ons.
+
+TIP: The BASSALAC.CHM file should be put in the same directory as the BASS.CHM
+     file, so that the BASSALAC documentation can be accessed from within the
+     BASS documentation.
+
+
+Included files
+==============
+Win32 version
+-------------
+BASSALAC.TXT    This file
+BASSALAC.DLL    32-bit BASSALAC module
+BASSALAC.CHM    BASSALAC documentation
+X64\
+  BASSALAC.DLL    64-bit BASSALAC module
+C\
+  BASSALAC.H      BASSALAC C/C++ header file
+  BASSALAC.LIB    32-bit BASSALAC import library
+  X64\
+    BASSALAC.LIB    64-bit BASSALAC import library
+DELPHI\
+  BASSALAC.PAS    BASSALAC Delphi/Pascal unit
+VB\
+  BASSALAC.BAS    BASSALAC Visual Basic module
+
+Linux version
+-------------
+BASSALAC.TXT    This file
+BASSALAC.CHM    BASSALAC documentation
+LIBS\           BASSALAC modules
+  ...
+C\
+  BASSALAC.H      BASSALAC C/C++ header file
+DELPHI\
+  BASSALAC.PAS    BASSALAC Delphi/Pascal unit
+
+Android version
+---------------
+BASSALAC.TXT    This file
+BASSALAC.CHM    BASSALAC documentation
+LIBS\           BASSALAC modules
+  ...
+C\
+  BASSALAC.H      BASSALAC C/C++ header file
+JAVA\COM\UN4SEEN\BASS\
+  BASSALAC.JAVA   BASSALAC Java class
+
+
+Latest Version
+==============
+The latest versions of BASSALAC & BASS can be found at the BASS website:
+
+	www.un4seen.com
+
+
+Licence
+=======
+BASSALAC is free to use with BASS.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, BASSALAC IS PROVIDED
+"AS IS", WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY
+AND/OR FITNESS FOR A PARTICULAR PURPOSE. THE AUTHORS SHALL NOT BE HELD
+LIABLE FOR ANY DAMAGE THAT MAY RESULT FROM THE USE OF BASSALAC. YOU USE
+BASSALAC ENTIRELY AT YOUR OWN RISK.
+
+Usage of BASSALAC indicates that you agree to the above conditions.
+
+All trademarks and other registered names contained in the BASSALAC
+package are the property of their respective owners.
+
+
+Credits
+=======
+BASSALAC contains code from Apple's ALAC decoder (http://alac.macosforge.org/),
+Copyright (c) 2011 Apple Inc. And from David Hammerton's ALAC decoder,
+Copyright (c) 2005 David Hammerton.
+
+
+History
+=======
+These are the major (and not so major) changes in each release, along with the
+functions/options that are introduced/affected by them. There are other little
+tweaks and fixes made along the way too.
+
+2.4.1 - 31/7/2024
+-----------------
+* Support for 64-bit MP4 atoms (very large files)
+	BASS_ALAC_StreamCreateFile/User/URL
+* Error code for unstreamable atom order changed to match BASS
+    BASS_ERROR_UNSTREAMABLE (BASS_ALAC_StreamCreateURL error code)
+    BASS_ERROR_MP4_NOSTREAM removed
+* MP4 tag reading removed and handled by BASS instead on all platforms
+    BASS_TAG_MP4 (BASS_ChannelGetTags type)
+* Channel order fix for 3/5/7 channel files
+
+2.4.0.2 - 6/1/2021
+------------------
+* Fix for mono 24-bit ALAC files
+* Support for Description/Keywords/Category/Grouping/Lyrics tags on Linux (already on other platforms)
+
+2.4 - 2/2/2016
+--------------
+* First release
+
+
+Bug reports, Suggestions, Comments, Enquiries, etc
+==================================================
+If you have any of the aforementioned, please visit the BASS forum at the
+website.
+
+
+===== BASSAPE-LICENSE.txt =====
+BASSAPE 2.4
+Copyright (c) 2022-2026 Un4seen Developments Ltd. All rights reserved.
+
+
+BASSAPE is an extension to the BASS audio library, enabling the playing of
+Monkey's Audio encoded files.
+
+
+Requirements
+============
+BASS 2.4 is required.
+
+
+Using BASSAPE
+==============
+The plugin system (see BASS_PluginLoad) can be used to add Monkey's Audio
+support to the standard BASS stream (and sample) creation functions. Dedicated
+Monkey's Audio stream creation functions are also provided by BASSAPE.
+
+The usage information in the BASS.TXT file (from the BASS package) is also
+applicable to BASSAPE and other add-ons.
+
+TIP: The BASSAPE.CHM file should be put in the same directory as the BASS.CHM
+     file, so that the BASSAPE documentation can be accessed from within the
+     BASS documentation.
+
+Android version
+---------------
+BASSAPE uses the libc++ library. The default BASSAPE libraries have that
+built-in, while those in the C++_SHARED folder depend on the LIBC++_SHARED.SO
+library instead. The latter could be used when the app already includes the
+LIBC++_SHARED.SO library for other things.
+
+
+Included files
+==============
+Win32 version
+-------------
+BASSAPE.TXT     This file
+BASSAPE.DLL     32-bit BASSAPE module
+BASSAPE.CHM     BASSAPE documentation
+X64\
+  BASSAPE.DLL     64-bit BASSAPE module
+C\
+  BASSAPE.H       BASSAPE C/C++ header file
+  BASSAPE.LIB     32-bit BASSAPE import library
+  X64\
+    BASSAPE.LIB     64-bit BASSAPE import library
+DELPHI\
+  BASSAPE.PAS     BASSAPE Delphi unit
+VB\
+  BASSAPE.BAS     BASSAPE Visual Basic module
+
+macOS version
+-------------
+BASSAPE.TXT     This file
+LIBBASSAPE.DYLIB  BASSAPE module
+BASSAPE.CHM     BASSAPE documentation
+C\
+  BASSAPE.H       BASSAPE C/C++/Objective-C header file
+DELPHI\
+  BASSAPE.PAS     BASSAPE Delphi/Pascal unit
+
+Linux version
+-------------
+BASSAPE.TXT     This file
+BASSAPE.CHM     BASSAPE documentation
+LIBS\           BASSAPE modules
+  ...
+C\
+  BASSAPE.H       BASSAPE C/C++ header file
+DELPHI\
+  BASSAPE.PAS     BASSAPE Delphi/Pascal unit
+
+Android version
+---------------
+BASSAPE.TXT     This file
+BASSAPE.CHM     BASSAPE documentation
+LIBS\           BASSAPE modules
+  ...
+C++_SHARED\LIBS\  BASSAPE modules using shared libc++
+  ...
+C\
+  BASSAPE.H       BASSAPE C/C++ header file
+JAVA\COM\UN4SEEN\BASS\
+  BASSAPE.JAVA    BASSAPE Java class
+
+iOS version
+-----------
+BASSAPE.TXT     This file
+BASSAPE.XCFRAMEWORK  BASSAPE framework
+BASSAPE.CHM     BASSAPE documentation
+BASSAPE.H       BASSAPE C/C++/Objective-C header file
+
+
+Latest Version
+==============
+The latest versions of BASSAPE & BASS can be found at the BASS website:
+
+	www.un4seen.com
+
+
+Licence
+=======
+BASSAPE is free to use with BASS.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, BASSAPE IS PROVIDED
+"AS IS", WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY
+AND/OR FITNESS FOR A PARTICULAR PURPOSE. THE AUTHORS SHALL NOT BE HELD
+LIABLE FOR ANY DAMAGE THAT MAY RESULT FROM THE USE OF BASSAPE. YOU USE
+BASSAPE ENTIRELY AT YOUR OWN RISK.
+
+Usage of BASSAPE indicates that you agree to the above conditions.
+
+All trademarks and other registered names contained in the BASSAPE
+package are the property of their respective owners.
+
+
+Credits
+=======
+Monkey's Audio SDK, Copyright (c) 2000-2025 Matthew T. Ashland
+
+
+History
+=======
+These are the major (and not so major) changes in each release, along with the
+functions/options that are introduced/affected by them. There are other little
+tweaks and fixes made along the way too.
+
+2.4.1 - 20/2/2026
+-----------------
+* Support for floating-point files
+	BASS_APE_StreamCreateFile/User/URL
+* Updated to Monkey's Audio SDK 10.96
+
+2.4.0.1 - 18/7/2024
+-------------------
+* Updated to Monkey's Audio SDK 10.74
+
+2.4 - 4/3/2022
+--------------
+* First release
+
+
+Bug reports, Suggestions, Comments, Enquiries, etc
+==================================================
+If you have any of the aforementioned, please visit the BASS forum at the
+website.
+
+
+===== BASSFLAC-LICENSE.txt =====
+BASSFLAC 2.4
+Copyright (c) 2004-2026 Un4seen Developments Ltd. All rights reserved.
+
+
+BASSFLAC is an extension to the BASS audio library, enabling the playing of
+FLAC (Free Lossless Audio Codec) encoded files and streams.
+
+
+Requirements
+============
+BASS 2.4 is required.
+
+
+Using BASSFLAC
+==============
+The plugin system (see BASS_PluginLoad) can be used to add FLAC support to the
+standard BASS stream (and sample) creation functions. Dedicated FLAC stream
+creation functions are also provided by BASSFLAC.
+
+The usage information in the BASS.TXT file (from the BASS package) is also
+applicable to BASSFLAC and other add-ons.
+
+TIP: The BASSFLAC.CHM file should be put in the same directory as the BASS.CHM
+     file, so that the BASSFLAC documentation can be accessed from within the
+     BASS documentation.
+
+
+Included files
+==============
+Win32 version
+-------------
+BASSFLAC.TXT    This file
+BASSFLAC.DLL    32-bit BASSFLAC module
+BASSFLAC.CHM    BASSFLAC documentation
+X64\
+  BASSFLAC.DLL    64-bit BASSFLAC module
+C\
+  BASSFLAC.H      BASSFLAC C/C++ header file
+  BASSFLAC.LIB    32-bit BASSFLAC import library
+  X64\
+    BASSFLAC.LIB    64-bit BASSFLAC import library
+DELPHI\
+  BASSFLAC.PAS    BASSFLAC Delphi/Pascal unit
+VB\
+  BASSFLAC.BAS    BASSFLAC Visual Basic module
+
+MacOS version
+-------------
+BASSFLAC.TXT    This file
+LIBBASSFLAC.DYLIB  BASSFLAC module
+BASSFLAC.CHM    BASSFLAC documentation
+C\
+  BASSFLAC.H      BASSFLAC C/C++/Objective-C header file
+DELPHI\
+  BASSFLAC.PAS    BASSFLAC Delphi/Pascal unit
+
+Linux version
+-------------
+BASSFLAC.TXT    This file
+BASSFLAC.CHM    BASSFLAC documentation
+LIBS\           BASSFLAC modules
+  ...
+C\
+  BASSFLAC.H      BASSFLAC C/C++ header file
+DELPHI\
+  BASSFLAC.PAS    BASSFLAC Delphi/Pascal unit
+
+Android version
+---------------
+BASSFLAC.TXT    This file
+BASSFLAC.CHM    BASSFLAC documentation
+LIBS\           BASSFLAC modules
+  ...
+C\              C/C++ API...
+  BASSFLAC.H      BASSFLAC C/C++ header file
+JAVA\COM\UN4SEEN\BASS\
+  BASSFLAC.JAVA   BASSFLAC Java class
+
+iOS version
+-----------
+BASSFLAC.TXT    This file
+BASSFLAC.XCFRAMEWORK  BASSFLAC framework
+BASSFLAC.CHM    BASSFLAC documentation
+BASSFLAC.H      BASSFLAC C/C++/Objective-C header file
+
+
+Latest Version
+==============
+The latest versions of BASSFLAC & BASS can be found at the BASS website:
+
+	www.un4seen.com
+
+
+Licence
+=======
+BASSFLAC is free to use with BASS.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, BASSFLAC IS PROVIDED
+"AS IS", WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY
+AND/OR FITNESS FOR A PARTICULAR PURPOSE. THE AUTHORS SHALL NOT BE HELD
+LIABLE FOR ANY DAMAGE THAT MAY RESULT FROM THE USE OF BASSFLAC. YOU USE
+BASSFLAC ENTIRELY AT YOUR OWN RISK.
+
+Usage of BASSFLAC indicates that you agree to the above conditions.
+
+All trademarks and other registered names contained in the BASSFLAC
+package are the property of their respective owners.
+
+
+Credits
+=======
+FLAC decoding is based on libFLAC, Copyright (c) 2000-2009 Josh Coalson,
+Copyright (C) 2011-2025 Xiph.Org Foundation
+
+
+History
+=======
+These are the major (and not so major) changes in each release, along with the
+functions/options that are introduced/affected by them. There are other little
+tweaks and fixes made along the way too.
+
+2.4.6 - 2/3/2026
+----------------
+* Full length retrieval and seeking in chained Ogg FLAC files
+	BASS_ChannelGetLength
+	BASS_ChannelSetPosition
+* Fixed length retrieval and seeking in internet stream rips
+	BASS_ChannelGetLength
+	BASS_ChannelSetPosition
+* Files without a length header value are scanned to get the length
+	BASS_ChannelGetLength
+* Bitstream seeking and count retrieval in chained Ogg FLAC files
+	BASS_POS_OGG (BASS_ChannelSetPosition/ChannelGetLength mode)
+* Optional chained Ogg FLAC file pre-scanning
+	BASS_STREAM_PRESCAN (BASS_FLAC_StreamCreateFile/User flag)
+	BASS_CONFIG_OGG_PRESCAN (BASS_SetConfig option)
+* Support for resetting of user file streams/decoders
+	BASS_POS_RESET (BASS_ChannelSetPosition flag)
+* Each stream has a dedicated reading/decoding thread
+* Updated to libFLAC 1.5.0
+
+2.4.5.5 - 3/5/2024
+------------------
+* Fix for possible stalling with asynchronous file reading
+	BASS_ASYNCFILE (BASS_FLAC_StreamCreateFile/User flag)
+
+2.4.5.4 - 12/10/2023
+--------------------
+* Updated to libFLAC 1.4.3
+
+2.4.5.2 - 9/2/2023
+------------------
+* Updated to libFLAC 1.4.2
+* Fix for possible delay/freeze when opening Opus streams
+	BASS_StreamCreateURL
+
+2.4.5 - 19/10/2022
+------------------
+* Support for 32-bit encoding
+	BASS_FLAC_StreamCreateFile/User/URL
+* Updated to libFLAC 1.4.1
+
+2.4.4.7 - 24/2/2022
+-------------------
+* Updated to libFLAC 1.3.4
+
+2.4.4.5 - 4/12/2020
+-------------------
+* Updated to libFLAC 1.3.3
+
+2.4.4 - 28/10/2017
+------------------
+* Support for chained Ogg FLAC streams
+	BASS_FLAC_StreamCreateFile/User/URL
+
+2.4.3 - 24/1/2017
+-----------------
+* Support for application metadata
+	BASS_TAG_FLAC_METADATA (BASS_ChannelGetTags type)
+	TAG_FLAC_METADATA structure
+* Updated to libFLAC 1.3.2
+
+2.4.2 - 28/11/2014
+------------------
+* Updated to libFLAC 1.3.1
+
+2.4.1.4 - 1/8/2014
+------------------
+* Ogg FLAC support fix on 64-bit OSX
+
+2.4.1 - 8/12/2009
+-----------------
+* Support for embedded images
+	BASS_TAG_FLAC_PICTURE (BASS_ChannelGetTags type)
+	TAG_FLAC_PICTURE structure
+* Support for embedded cuesheets
+	BASS_TAG_FLAC_CUE (BASS_ChannelGetTags type)
+	TAG_FLAC_CUE/_TRACK/_INDEX structures
+
+2.4 - 2/4/2008
+--------------
+* Support for updated user file stream system
+	BASS_FLAC_StreamCreateFileUser
+* 64-bit file positioning
+	BASS_FLAC_StreamCreateFile
+* Callback "user" parameters changed to pointers
+	BASS_FLAC_StreamCreateURL/FileUser
+* Updated to libFLAC 1.2.1
+
+2.3.0.4 - 30/7/2007
+------------------
+* Updated to libFLAC 1.2.0
+
+2.3.0.3 - 4/3/2007
+------------------
+* Updated to libFLAC 1.1.4
+
+2.3.0.1 - 10/7/2006
+-------------------
+* Ogg FLAC support
+	BASS_CTYPE_STREAM_FLAC_OGG (channel type)
+
+2.3 - 21/5/2006
+---------------
+* No API changes
+
+2.2 - 2/10/2005
+---------------
+* Support for new plugin system (BASS_PluginLoad)
+* Support for internet streaming
+	BASS_FLAC_StreamCreateURL
+	BASS_StreamCreateURL (via plugin system)
+* Support for buffered user file streaming
+	BASS_FLAC_StreamCreateFileUser
+	BASS_StreamCreateFileUser (via plugin system)
+* Without the FLOAT flag, files above 16-bit will be decoded in 16-bit
+	BASS_FLAC_StreamCreateFile/User/URL
+	BASS_StreamCreateFile/User/URL (via plugin system)
+* Vendor/encoder retrieval
+	BASS_TAG_VENDOR (BASS_StreamGetTags type)
+* MacOSX port introduced
+
+2.1 - 28/11/2004
+----------------
+* User file stream support
+	BASS_FLAC_StreamCreateFileUser
+* Support for the improved "mixtime" sync system (allows custom looping)
+
+2.0 - 2/10/2004
+---------------
+* First release
+
+
+Bug reports, Suggestions, Comments, Enquiries, etc
+==================================================
+If you have any of the aforementioned, please visit the BASS forum at the
+website.
+
+
+
+  LICENSE ISSUES
+  ==============
+
+  The OpenSSL toolkit stays under a double license, i.e. both the conditions of
+  the OpenSSL License and the original SSLeay license apply to the toolkit.
+  See below for the actual license texts.
+
+  OpenSSL License
+  ---------------
+
+/* ====================================================================
+ * Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in
+ *    the documentation and/or other materials provided with the
+ *    distribution.
+ *
+ * 3. All advertising materials mentioning features or use of this
+ *    software must display the following acknowledgment:
+ *    "This product includes software developed by the OpenSSL Project
+ *    for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
+ *
+ * 4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to
+ *    endorse or promote products derived from this software without
+ *    prior written permission. For written permission, please contact
+ *    openssl-core@openssl.org.
+ *
+ * 5. Products derived from this software may not be called "OpenSSL"
+ *    nor may "OpenSSL" appear in their names without prior written
+ *    permission of the OpenSSL Project.
+ *
+ * 6. Redistributions of any form whatsoever must retain the following
+ *    acknowledgment:
+ *    "This product includes software developed by the OpenSSL Project
+ *    for use in the OpenSSL Toolkit (http://www.openssl.org/)"
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY
+ * EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT OR
+ * ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ * OF THE POSSIBILITY OF SUCH DAMAGE.
+ * ====================================================================
+ *
+ * This product includes cryptographic software written by Eric Young
+ * (eay@cryptsoft.com).  This product includes software written by Tim
+ * Hudson (tjh@cryptsoft.com).
+ *
+ */
+
+ Original SSLeay License
+ -----------------------
+
+/* Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+ * All rights reserved.
+ *
+ * This package is an SSL implementation written
+ * by Eric Young (eay@cryptsoft.com).
+ * The implementation was written so as to conform with Netscapes SSL.
+ *
+ * This library is free for commercial and non-commercial use as long as
+ * the following conditions are aheared to.  The following conditions
+ * apply to all code found in this distribution, be it the RC4, RSA,
+ * lhash, DES, etc., code; not just the SSL code.  The SSL documentation
+ * included with this distribution is covered by the same copyright terms
+ * except that the holder is Tim Hudson (tjh@cryptsoft.com).
+ *
+ * Copyright remains Eric Young's, and as such any Copyright notices in
+ * the code are not to be removed.
+ * If this package is used in a product, Eric Young should be given attribution
+ * as the author of the parts of the library used.
+ * This can be in the form of a textual message at program startup or
+ * in documentation (online or textual) provided with the package.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. All advertising materials mentioning features or use of this software
+ *    must display the following acknowledgement:
+ *    "This product includes cryptographic software written by
+ *     Eric Young (eay@cryptsoft.com)"
+ *    The word 'cryptographic' can be left out if the rouines from the library
+ *    being used are not cryptographic related :-).
+ * 4. If you include any Windows specific code (or a derivative thereof) from
+ *    the apps directory (application code) you must include an acknowledgement:
+ *    "This product includes software written by Tim Hudson (tjh@cryptsoft.com)"
+ *
+ * THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * The licence and distribution terms for any publically available version or
+ * derivative of this code cannot be changed.  i.e. this code cannot simply be
+ * copied and put under another distribution licence
+ * [including the GNU Public Licence.]
+ */
+
